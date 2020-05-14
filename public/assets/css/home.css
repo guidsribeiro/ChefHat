@@ -13,7 +13,7 @@
         width: 100%;
         min-width: 320px;
         height: 900px;
-        background-image: url('/public/assets/images/photos/fullbanner-2.jpg');
+        background-image: url('/public/assets/images/photos/carne-principal.jpg');
         background-repeat: no-repeat;
         background-size: cover;
         flex-direction: column;
@@ -54,7 +54,7 @@
 
     #home .history h2 {
         float: right;
-        color: var(--black50);
+        color: var(--black18);
         font-size: 4em;
         font-weight: bold;
         margin: 0.4em 0;

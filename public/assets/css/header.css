@@ -6,7 +6,7 @@
     align-items: center;
     display: flex;
     justify-content: space-between;
-    background-color: var(--black);
+    background-color: var(--black502);
     border-bottom: solid .1px white;
 }
 
