@@ -7,7 +7,7 @@
     display: flex;
     justify-content: space-between;
     background-color: var(--black502);
-    border-bottom: solid .1px white;
+    border-bottom: solid .1px var(--white);
 }
 
 .header .menu {
@@ -20,6 +20,10 @@
     top: 0;
     z-index: 3;
     justify-content: space-between;
+}
+
+.header .log {
+    margin-left: 3em;
 }
   
 .header img {

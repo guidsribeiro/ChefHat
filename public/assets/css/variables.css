@@ -2,7 +2,12 @@
     --black: #000;
     --black75: #00000075;
     --white: #fff;
+    --white85: #ffffff85;
+    --white25: #ffffff25;
     --grayC: #CCC;
+    --grayD: #ddd;
+    --grayE: #eee;
     --black18: #181818;
     --black25: #25252549;
+    --roxo: rgb(113, 89, 193);
 }

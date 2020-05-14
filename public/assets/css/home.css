@@ -1,64 +1,116 @@
-    @media (min-width: 992px) {
+@media (min-width: 992px) {
 
     #home {
         flex-direction: column;
         width: 100%;
-        top: 5px;
-        left: 20px;
-        bottom: 5px;
-        right: 20px;
+        height: 100vh;
+        display: flex;
+        background-color: rgba(16, 16, 16, 1);
     }
 
     #home header {
         width: 100%;
         min-width: 320px;
-        height: 900px;
-        background-image: url('/public/assets/images/photos/carne-principal.jpg');
-        background-repeat: no-repeat;
-        background-size: cover;
+        height: 800px;
+        display: flex;
+        padding: 3em;
+    }
+
+    #home header .text-header {
+        margin-left: 4em;
         flex-direction: column;
-        align-items: flex-end;
-        justify-content: flex-start;
-        padding: 2em;
+        justify-content: center;
+    }
+
+    #home header .img-header {
+        margin-right: 6em;
     }
 
     #home header h1 {
-            float: right;
-            color: var(--white);
-            font-size: 4em;
-            font-weight: bold;
-            margin: 0.4em 0;
-            line-height: 1.25em;
+        color: var(--white);
+        font-size: 3.3em;
+        font-weight: bold;
+        margin: 0.4em 0;
+        line-height: 1.25em;
+        text-shadow: 3.8px 3px rgb(113, 89, 193);
+    } 
+
+    #home header .div-button {
+        width: 100%;
+        margin-top: 1em;
+        justify-content: flex-start;
     }
 
-    #home header p {
-        align-items: flex-end;
-        font-size: 3em;
-        font-weight: lighter;
-        margin: 0.7em 0;
-        margin-right: 3em;
-        margin-top: 0.05em;
+    #home header button {
+        justify-content: center;
+        width: 225px;
+        height: 60px;
+        font-size: 2em; 
+        background-color: transparent;
+        border: solid 1px rgb(113, 89, 193);
+        border-radius: 8px;
+        background-color: var(--white);
+    }
+
+    #home header button a {
+        text-decoration: none;
+        color: rgb(113, 89, 193);
     }
 
     #home .history {
         flex-direction: row;
-        margin: 40px 40px 40px 40px;
-        background-color: white;
-
+        background-color: var(--black25);
+        margin: 5em;
+        box-shadow: 0px 0px 13px var(--white85);
     }
 
     #home .history img {
        width: 50%;
-       height: 350px;
+       height: 480px;
+       border-right: solid 1px var(--white25);
     }
 
-    #home .history h2 {
-        float: right;
-        color: var(--black18);
-        font-size: 4em;
+    #home .div-history {
+        flex-direction: column;
+        margin: 1em 4em;
+    }
+
+    #home .history .div-history h2 {
+        color: var(--white);
+        font-size: 2.8em;
         font-weight: bold;
-        margin: 0.4em 0;
+        margin: 0.5em 0 0.8em 0;
         line-height: 1.25em;
+        text-shadow: 2.5px 1.5px rgb(113, 89, 193);
+    }
+
+    #home .history .div-history h3 {
+        color: var(--white);
+        font-size: 1.4em;
+        margin: 0 0 1em .13em;
+    }
+
+    #home .history .div-history p {
+        color: var(--grayD);
+        height: 100%;
+        display: flex;
+        margin: 0 0 0 .13em;
+        font-size: 1.18em;
+    }
+
+    #home .history .div-history div {
+        color: var(--grayD);
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+
+    #home .history .div-history div a {
+        height: 18px;
+        text-decoration: none;
+        color: rgb(113, 89, 193);
+        cursor: pointer;
     }
 
     #home .food h2 {
