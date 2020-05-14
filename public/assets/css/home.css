@@ -1,0 +1,72 @@
+    @media (min-width: 992px) {
+
+    #home {
+        flex-direction: column;
+        width: 100%;
+        top: 5px;
+        left: 20px;
+        bottom: 5px;
+        right: 20px;
+    }
+
+    #home header {
+        width: 100%;
+        min-width: 320px;
+        height: 900px;
+        background-image: url('/public/assets/images/photos/fullbanner-2.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: flex-start;
+        padding: 2em;
+    }
+
+    #home header h1 {
+            float: right;
+            color: var(--white);
+            font-size: 4em;
+            font-weight: bold;
+            margin: 0.4em 0;
+            line-height: 1.25em;
+    }
+
+    #home header p {
+        align-items: flex-end;
+        font-size: 3em;
+        font-weight: lighter;
+        margin: 0.7em 0;
+        margin-right: 3em;
+        margin-top: 0.05em;
+    }
+
+    #home .history {
+        flex-direction: row;
+        margin: 40px 40px 40px 40px;
+        background-color: white;
+
+    }
+
+    #home .history img {
+       width: 50%;
+       height: 350px;
+    }
+
+    #home .history h2 {
+        float: right;
+        color: var(--black50);
+        font-size: 4em;
+        font-weight: bold;
+        margin: 0.4em 0;
+        line-height: 1.25em;
+    }
+
+    #home .food h2 {
+        float: right;
+        color: var(--white);
+        font-size: 4em;
+        font-weight: bold;
+        margin: 0.4em 0;
+        line-height: 1.25em;
+    }
+}

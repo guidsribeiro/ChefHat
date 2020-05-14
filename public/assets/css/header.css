@@ -29,6 +29,14 @@
     border-radius: 50%;
 }
 
+.header .log {
+    width: 100px;
+    height: 100px;
+    padding: 3px;
+    border-radius: 50%;
+    margin-top: 30px;
+}
+
 .header .menu ul {
     margin: 130px 0 0 0;
     padding: 0;
