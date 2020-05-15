@@ -8,6 +8,7 @@
     justify-content: space-between;
     background-color: var(--black502);
     border-bottom: solid .1px var(--white);
+    margin-top: 35px;
 }
 
 .header .menu {
@@ -30,12 +31,12 @@
 
 .header .log {
     position: absolute;
-    width: 80px;
-    height: 110px;
+    width: 150px;
+    height: 200px;
     padding: 3px;
     border-radius: 50%;
-    margin-top: 1em;
-    margin-left: 3em;
+    align-items: center;
+    justify-content: center;
 }
 
 .header .menu ul {
@@ -69,7 +70,7 @@
 }
 
 #btn-open {
-    margin: 0px 10px;
+    margin: 10px 10px;
 }
 
 #btn-close {
