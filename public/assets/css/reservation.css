@@ -1,0 +1,92 @@
+#reservation.page > section {
+    flex-direction: column;
+}
+
+#reservation.page .reservations {
+    margin: 0;
+    margin-top: 30px;
+    padding: 1em;
+    flex-direction: column;
+}
+
+#reservation.page .reservations li {
+    border: white 1px solid;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1em;
+    margin-bottom: 4em;
+    text-align: center;
+    color: #666;
+}
+
+#reservation.page .reservations li img {
+    max-width: 100px;
+    background-color: white;
+    margin: 0 auto;
+    margin-top: -60px;
+    padding: 0 15px;
+}
+
+#reservation.page .reservations li h3 {
+    font-weight: 600;
+    margin: 0;
+    font-size: 24px;
+}
+
+#reservation.page .reservations li p {
+    font-weight: 300;
+    margin: 0;
+    font-size: 25px;
+}
+
+form {
+    flex-direction: column;
+    padding: 1em;
+    width: 100%;
+}
+
+form .fields {
+    flex-direction: column;
+}
+
+form .field {
+    position: relative;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 1em;
+}
+
+form button:hover {
+    background-color: var(--roxo);    
+}
+
+@media (min-width: 576px) {
+}
+
+@media (min-width: 992px) {
+    #reservation.page > section form {
+        flex: 1;
+    }
+    #reservation.page .reservations {
+        flex-direction: row;
+    }
+    #reservation.page .reservations li {
+        margin-right: 1em;
+    }
+    #reservation.page .reservations li:last-child {
+        margin-right: 0;
+    }
+    #reservation.page hr.divider {
+        background-color: white;
+        height: 1px;
+        width: calc(100% - 2em);
+        margin: 3em 0;
+        border: none;
+        display: flex;
+        align-self: center;
+    }
+    #reservation.page .reservations li {
+        margin-bottom: 2em;
+    }
+}

@@ -1,0 +1,99 @@
+.footer {
+    width: 100%;
+}
+
+.footer .footer-div {
+    height: 230px;
+    flex-direction: column;
+}
+
+.footer .footer-div .columns {
+    flex-direction: column;
+    width: 100%;
+}
+
+.footer .footer-div .columns .header-footer {
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin-top: 1.2em;
+    margin-left: 1.5em;
+}
+
+.footer .footer-div .columns .header-footer h3 {
+    color: var(--white);
+    font-size: 1.5em;
+}
+
+.footer .footer-div .columns .header-footer li {
+    margin-bottom: 10px;
+}
+
+.footer .footer-div .columns .header-footer li a {
+    text-decoration: none;
+    font-size: 1em;
+    color: var(--white85);
+}
+
+.footer .footer-div .columns .header-footer li a:hover {
+    color: var(--white40);
+}
+
+.footer .footer-div .columns .contact {
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin-top: 1.2em;
+    margin-left: 1.5em;
+}
+
+.footer .footer-div .columns .contact h3 {
+    color: var(--white);
+    font-size: 1.5em;
+}
+
+.footer .footer-div .columns .contact li {
+    margin-bottom: 10px;
+}
+
+.footer .footer-div .columns .contact li a {
+    text-decoration: none;
+    font-size: 1em;
+    color: var(--white85);
+}
+
+.footer .footer-div .columns .contact li a:hover {
+    color: var(--white40);
+}
+
+.footer .footer-div .div-p {
+    margin-top: 1em;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer .footer-div .div-p p {
+    color: var(--white);
+}
+
+@media (min-width: 576px) {
+    .footer .footer-div .columns {
+        flex-direction: row;
+    }
+
+    .footer .footer-div .columns .header-footer {
+        width: 49%;
+        padding: 0;
+        margin-left: 1.5em;
+    }
+
+    .footer .footer-div .columns .contact {
+        width: 49%;
+        padding: 0;
+        margin-left: 1.5em;
+    }
+}

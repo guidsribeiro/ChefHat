@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ChefHat</title>
+    <link rel="shortcut icon" href="/public/assets/logo/ChefHat.svg" type="image/x-icon">
     <link rel="stylesheet" href="/public/assets/css/reset.css">
-</head>
 <body>
     
     <header class="header">
         <div id="overlay" data-close="menu"></div>
-        <img class="log" src="/public/assets/logo/ChefHat.svg" alt="logo">
+        <img class="log" src="/public/assets/logo/ChefHat-white.png" alt="logo">
             <button type="button" id="btn-open">
                 <img src="/public/assets/images/menu-black.png" alt="btn-open">
             </button>
@@ -19,10 +19,10 @@
                 <img src="/public/assets/images/close-menu.svg" alt="close">
             </button>
             <ul>
-                <li><a href='/'>Home</a></li>
-                <li><a href='/'>Sobre</a></li>
-                <li><a href='/'>Menu</a></li>
-                <li><a href='/'>Reservas</a></li>
+                <li><a href='/public/index.html'>Início</a></li>
+                <li><a href='/public/about.html'>Sobre</a></li>
+                <li><a href='/public/menu.html'>Menu</a></li>
+                <li><a href='/public/reservation.html'>Reserva</a></li>
             </ul>
         </nav>
     </header>
@@ -33,7 +33,7 @@
                 <div class="text-header">
                     <h1>Não existe amor maior do aquele pela comida</h1>
                     <div class="div-button">
-                        <button><a href="reservas.html">Apaixone-se</a></button>
+                        <button><a href="reservation.html">Apaixone-se</a></button>
                     </div>
                 </div>
                 <div>
@@ -62,25 +62,50 @@
 
     </main>
 
-   <!--  <footer class="footer">
-        <hr />
+    <footer class="footer">
         <div class='footer-div'>
             <div class="columns">
                 <ul class="header-footer">
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
+                    <h3>PÁGINAS</h3>
+                    <li><a href="/">Início</a></li>
+                    <li><a href="/public/about.html">Sobre</a></li>
+                    <li><a href="/public/menu.html">Menu</a></li>
+                    <li><a href="/public/reservation.html">Reserva</a></li>
                 </ul>
                 <ul class="contact">
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
+                    <h3>CONTATO</h3>
+                    <li><a href="#">abacate@gmail.com</a></li>
+                    <li><a href="#">(44) 9991292899289</a></li>
+                    <li><a href="#">Menu</a></li>
+                    <li><a href="#">Contato</a></li>
                 </ul>
+                <div>
+                    <p>Todos os direitos super reservadões.</p>
+                </div>
             </div>
         </div>
-    </footer> -->
+    </footer>
+
+    <!-- <div>
+        <section>
+            <form>
+                <div class="fields">
+                    <div class="field">
+                        <input type="text" name="name" id="name" />
+                        <label for="name">Nome Completo</label>
+                    </div>
+                    <div class="field">
+                        <input type="email" name="email" id="email" />
+                        <label for="email">E-mail</label>
+                    </div>
+                </div>
+                <div class="field">
+                    <textarea name="message" id="message"></textarea>
+                    <label for="message">Mensagem</label>
+                </div>
+                <button type="submit">Enviar</button>
+        </section>
+    </div> -->
 
     <script src="/public/js/index.js"></script>
 </body>

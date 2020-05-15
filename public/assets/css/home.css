@@ -1,3 +1,4 @@
+
 @media (min-width: 992px) {
 
     #home {
@@ -32,7 +33,7 @@
         font-weight: bold;
         margin: 0.4em 0;
         line-height: 1.25em;
-        text-shadow: 3.8px 3px rgb(113, 89, 193);
+        text-shadow: 2px 2px var(--roxo);
     } 
 
     #home header .div-button {
@@ -47,14 +48,14 @@
         height: 60px;
         font-size: 2em; 
         background-color: transparent;
-        border: solid 1px rgb(113, 89, 193);
+        border: solid 1px var(--roxo);
         border-radius: 8px;
         background-color: var(--white);
     }
 
     #home header button a {
         text-decoration: none;
-        color: rgb(113, 89, 193);
+        color: var(--roxo);
     }
 
     #home .history {
@@ -70,7 +71,7 @@
        border-right: solid 1px var(--white25);
     }
 
-    #home .div-history {
+    #home .div-histordy {
         flex-direction: column;
         margin: 1em 4em;
     }
@@ -81,7 +82,7 @@
         font-weight: bold;
         margin: 0.5em 0 0.8em 0;
         line-height: 1.25em;
-        text-shadow: 2.5px 1.5px rgb(113, 89, 193);
+        text-shadow: 2.5px 1.5px var(--roxo);
     }
 
     #home .history .div-history h3 {
@@ -109,7 +110,7 @@
     #home .history .div-history div a {
         height: 18px;
         text-decoration: none;
-        color: rgb(113, 89, 193);
+        color: var(--roxo);
         cursor: pointer;
     }
 

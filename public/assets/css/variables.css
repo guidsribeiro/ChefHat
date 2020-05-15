@@ -4,10 +4,13 @@
     --white: #fff;
     --white85: #ffffff85;
     --white25: #ffffff25;
+    --white40: #ffffff40;
     --grayC: #CCC;
     --grayD: #ddd;
     --grayE: #eee;
     --black18: #181818;
     --black25: #25252549;
     --roxo: rgb(113, 89, 193);
+    --roxo2: rgb(113, 89, 189);
+    --roxo3: rgb(111, 89, 255);
 }
