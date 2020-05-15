@@ -183,15 +183,28 @@
 #home .reservhome {
     background-image: url('/public/assets/images/photos/reservhome.jpg');
     background-size: cover;
-    height: 30em;
+    height: 500px;
     margin: .3em;
     margin-top: 6em;
 }
 
 #home .reservhome h2 {
-
+    color: var(--white);
+    font-size: 2em;
+    font-weight: bold;
+    line-height: 1.25em;
+    text-shadow: 2.5px 1.5px var(--roxo);
+    margin-top: 1em;
+    text-align: center;
 }
 
 #home .reservhome .div-button {
-    
+    justify-content: center;
+    width: 140px;
+    height: 30px;
+    font-size: 1em; 
+    background-color: transparent;
+    border: solid 1px var(--roxo);
+    border-radius: 8px;
+    background-color: var(--white);
 }
