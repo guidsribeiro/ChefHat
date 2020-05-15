@@ -1,4 +1,81 @@
-#reservation.page > section {
+.page {
+    width: 100%;
+    display: flex;
+}
+
+.page section {
+    width: 100%;
+    flex-direction: column;
+}
+
+.page .banner {
+    width: 100%;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    background-image: url('/public/assets/images/photos/waldemar-brandt-yzwKXsjYyDk-unsplash.jpg');
+    background-size: cover;
+}
+
+.page .banner-h1 {
+    margin: 1.5em 0 0 0;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.page .banner-h1 h1 {
+    color: var(--white);
+    font-size: 3.3em;
+    font-weight: bold;
+    margin: 0.4em 0;
+    line-height: 1.25em;
+    text-shadow: 2px 2px var(--roxo);
+}
+
+.page .banner-p {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.page .banner-p p {
+    margin-top: 0;
+    color: var(--white85);
+    font-size: 1.4em;
+}
+
+.page .form {
+    width: 100%;
+}
+
+.page .form form {
+    flex-direction: column;
+}
+
+.page .form
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* #reservation.page > section {
     flex-direction: column;
 }
 
@@ -89,4 +166,4 @@ form button:hover {
     #reservation.page .reservations li {
         margin-bottom: 2em;
     }
-}
+} */

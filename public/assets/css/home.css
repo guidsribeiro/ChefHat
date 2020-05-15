@@ -1,4 +1,215 @@
 
+#home {
+    flex-direction: column;
+    width: 100%;
+    max-width: 375px;
+    display: flex;
+    background-color: rgba(16, 16, 16, 1);
+}
+
+#home header {
+    width: 100%;
+    min-width: 320px;
+    height: 600px;
+    display: flex;
+    padding: 2em;
+    margin-top: 5em;
+}
+
+#home header .text-header {
+    margin-left: 4em;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#home header .img-header {
+    margin-right: 6em;
+    max-width: 100%;
+    background-size: cover;
+    margin: 0.5em;
+}
+
+#home header h1 {
+    color: var(--white);
+    font-size: 2em;
+    font-weight: bold;
+    margin-top: 1em;
+    margin-left: -75px;
+    line-height: 1.25em;
+    text-shadow: 2px 2px var(--roxo);
+} 
+
+#home header .div-button {
+    width: 100%;
+    margin-top: 1em;
+    justify-content: flex-start;
+}
+
+#home header button {
+    justify-content: center;
+    width: 140px;
+    height: 30px;
+    font-size: 1em; 
+    background-color: transparent;
+    border: solid 1px var(--roxo);
+    border-radius: 8px;
+    background-color: var(--white);
+    margin-top: -1.3em;
+    margin-left: -75px;
+}
+
+#home header button a {
+    text-decoration: none;
+    color: var(--roxo);
+}
+
+#home .history {
+    flex-direction: column;
+    background-color: var(--black25);
+    margin: 1em;
+    box-shadow: 0px 0px 13px var(--white85);
+}
+
+#home .history img {
+    width: 100%;
+    border-right: solid 1px var(--white25);
+}
+
+#home .div-history {
+    flex-direction: column;
+    margin: 1em 3.5em;
+}
+
+#home .history .div-history h2 {
+    color: var(--white);
+    font-size: 2.8em;
+    font-weight: bold;
+    margin: 0.5em 0 0.8em 2px;
+    line-height: 1.25em;
+    text-shadow: 2.5px 1.5px var(--roxo);
+}
+
+#home .history .div-history h3 {
+    color: var(--white);
+    font-size: 1.4em;
+    margin: -25px 0 1em .2em;
+}
+
+#home .history .div-history p {
+    color: var(--grayD);
+    height: 100%;
+    display: flex;
+    margin: -10px 0 0 .13em;
+    font-size: 1.18em;
+}
+
+#home .history .div-history div {
+    color: var(--grayD);
+    height: 100%;
+    display: flex;
+    margin-top: .5em;
+}
+
+#home .history .div-history div a {
+    height: 18px;
+    text-decoration: none;
+    color: var(--roxo);
+    cursor: pointer;
+    margin: 0 0 .35em 0;
+}
+
+#home .food {
+    flex-direction: column;
+    background-image: url('/public/assets/images/photos/home3.jpg');
+    background-size: cover;
+    box-shadow: 0px 0px 13px var(--white85);
+    height: 30em;
+    margin: .3em;
+    margin-top: 6em;
+}
+
+#home .food h2 {
+    color: var(--white);
+    font-size: 2.8em;
+    font-weight: bold;
+    line-height: 1.25em;
+    text-shadow: 2.5px 1.5px var(--roxo);
+    margin-top: 0;
+    margin-left: 5px;
+}
+
+#home .food h3 {
+    height: 18px;
+    text-decoration: none;
+    color: var(--roxo);
+    cursor: pointer;
+    margin-top: -2em;
+    margin-left: 10px;
+}
+
+#home .ingredients img {
+    width: 90%;
+    height: 90%;
+    margin: 1em 1.2em;
+    box-shadow: 0px 0px 13px var(--white85);
+}
+
+#home .ingredients h2 {
+    color: var(--white);
+    font-size: 2.8em;
+    font-weight: bold;
+    line-height: 1.25em;
+    text-shadow: 2.5px 1.5px var(--roxo);
+    margin-left: 5px;
+}
+
+#home .ingredients h3 {
+    height: 18px;
+    text-decoration: none;
+    color: var(--roxo);
+    cursor: pointer;
+    margin-top: -2.2em;
+    margin-left: 7px;
+}
+
+#home .ingredients p {
+    color: var(--grayD);
+    height: 100%;
+    display: flex;
+    font-size: 1.18em;
+    margin-left: 5px;
+}
+
+#home .reservhome {
+    background-image: url('/public/assets/images/photos/reservhome.jpg');
+    background-size: cover;
+    height: 500px;
+    margin: .3em;
+    margin-top: 6em;
+}
+
+#home .reservhome h2 {
+    color: var(--white);
+    font-size: 2em;
+    font-weight: bold;
+    line-height: 1.25em;
+    text-shadow: 2.5px 1.5px var(--roxo);
+    margin-top: 1em;
+    text-align: center;
+}
+
+#home .reservhome .div-button {
+    justify-content: center;
+    width: 140px;
+    height: 30px;
+    font-size: 1em; 
+    background-color: transparent;
+    border: solid 1px var(--roxo);
+    border-radius: 8px;
+    background-color: var(--white);
+}
+
+
 @media (min-width: 992px) {
 
     #home {
