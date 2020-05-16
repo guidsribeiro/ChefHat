@@ -6,6 +6,62 @@
     <title>ChefHat - Menu</title>
 </head>
 <body>
-    
+    <header class="header">
+        <div id="overlay" data-close="menu"></div>
+        <img class="log" src="/public/assets/logo/ChefHat-white.png" alt="logo">
+            <button type="button" id="btn-open">
+                <img src="/public/assets/images/menu-burger.png" alt="btn-open">
+            </button>
+        <nav class="menu">
+            <button type="button" id="btn-close" data-close="menu">
+                <img src="/public/assets/images/close-menu.svg" alt="close">
+            </button>
+            <ul>
+                <li><a href='/public/index.html'>Início</a></li>
+                <li><a href='/public/about.html'>Sobre</a></li>
+                <li><a href='/public/menu.html'>Menu</a></li>
+                <li><a href='/public/reservation.html'>Reserva</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <footer>
+        <div id="footer">
+            <div id="hours">
+                <div class="columns">  
+                    <ul class="hours1">
+                        <h3>HORÁRIOS DE ATENDIMENTO</h3>
+                        <h2>Terça à Sexta</h2>
+                        <li>18hrs - 23hrs</li>
+                    </ul>
+                    <ul class="hours2">
+                        <h2>Sábado e Domingo</h2>
+                        <li>18hrs - 24hrs</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="columns">
+                <ul class="header-footer">
+                    <h3>PÁGINAS</h3>
+                    <li><a href="/public/index.html">Início</a></li>
+                    <li><a href="/public/about.html">Sobre</a></li>
+                    <li><a href="/public/menu.html">Menu</a></li>
+                    <li><a href="/public/reservation.html">Reserva</a></li>
+                </ul>
+                <ul class="contact">
+                    <h3>CONTATO</h3>
+                    <li><a href="#">support@chefhat.com</a></li>
+                    <li><a href="#">+55 (44) 99912-9289</a></li>
+                    <li><a href="#">Tatuapé - SP</a></li>
+                </ul>
+            </div>
+
+            <div class="allrights">
+                <p>© 2020 ChefHat .Inc - Todos os direitos reservados.</p>
+            </div>
+        </div>    
+    </footer>
+
+    <script src="/public/js/index.js"></script>
 </body>
 </html>

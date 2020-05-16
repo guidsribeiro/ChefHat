@@ -19,7 +19,7 @@
                 <img src="/public/assets/images/close-menu.svg" alt="close">
             </button>
             <ul>
-                <li><a href='/public/index.html'>Home</a></li>
+                <li><a href='/public/index.html'>Início</a></li>
                 <li><a href='/public/about.html'>Sobre</a></li>
                 <li><a href='/public/menu.html'>Menu</a></li>
                 <li><a href='/public/reservation.html'>Reserva</a></li>
@@ -53,14 +53,27 @@
                         <textarea name="message" id="message"></textarea>
                         <label for="message">Mensagem</label>
                     </div>
-                    <button type="submit">Enviar</button>
+                    <button type="button">Enviar</button>
                 </form>
             </div>
         </section>
     </main>
 
     <footer>
-        <div class='footer-div'>
+        <div id="footer">
+            <div id="hours">
+                <div class="columns">  
+                    <ul class="hours1">
+                        <h3>HORÁRIOS DE ATENDIMENTO</h3>
+                        <h2>Terça à Sexta</h2>
+                        <li>18hrs - 23hrs</li>
+                    </ul>
+                    <ul class="hours2">
+                        <h2>Sábado e Domingo</h2>
+                        <li>18hrs - 24hrs</li>
+                    </ul>
+                </div>
+            </div>
             <div class="columns">
                 <ul class="header-footer">
                     <h3>PÁGINAS</h3>
@@ -75,11 +88,14 @@
                     <li><a href="#">+55 (44) 99912-9289</a></li>
                     <li><a href="#">Tatuapé - SP</a></li>
                 </ul>
-                <div class="allrights">
-                    <p>© 2020 ChefHat .Inc - Todos os direitos reservados.</p>
-                </div>
             </div>
-        </div>
+
+            <div class="allrights">
+                <p>© 2020 ChefHat .Inc - Todos os direitos reservados.</p>
+            </div>
+        </div>    
     </footer>
+
+    <script src="/public/js/index.js"></script>
 </body>
 </html>
