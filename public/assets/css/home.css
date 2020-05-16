@@ -1,4 +1,3 @@
-
 #home {
     flex-direction: column;
     width: 100%;
@@ -9,7 +8,6 @@
 
 #home header {
     width: 100%;
-    min-width: 320px;
     height: 600px;
     display: flex;
     padding: 2em;
@@ -194,11 +192,11 @@
     font-weight: bold;
     line-height: 1.25em;
     text-shadow: 2.5px 1.5px var(--roxo);
-    margin-top: 1em;
+    margin-top: 12em;
     text-align: center;
 }
 
-#home .reservhome .div-button {
+#home .reservhome > div button {
     justify-content: center;
     width: 140px;
     height: 30px;
@@ -207,6 +205,15 @@
     border: solid 1px var(--roxo);
     border-radius: 8px;
     background-color: var(--white);
+    align-items: center;
+    text-align: center;
+    font-style: bold;
+    margin-left: 50%; 
+}
+
+#home .reservhome > div button a {
+    font-size: 1em; 
+    text-decoration: none;
 }
 
 
@@ -321,7 +328,7 @@
     #home .history .div-history div a {
         height: 18px;
         text-decoration: none;
-        color: var(--roxo);
+        color: var(--roxo); 
         cursor: pointer;
     }
 

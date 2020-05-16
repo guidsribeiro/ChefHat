@@ -1,18 +1,24 @@
-.footer {
+footer {
     width: 100%;
 }
 
-.footer .footer-div {
+h3 {
+    color: var(--white);
+    font-size: 1.5em;
+}
+
+footer .columns {
+    margin-left: -120px;
+}
+
+footer .columns {
     height: 230px;
     flex-direction: column;
-}
-
-.footer .footer-div .columns {
     flex-direction: column;
     width: 100%;
 }
 
-.footer .footer-div .columns .header-footer {
+footer .columns .header-footer {
     width: 100%;
     flex-direction: column;
     justify-content: center;
@@ -22,26 +28,26 @@
     margin-left: 1.5em;
 }
 
-.footer .footer-div .columns .header-footer h3 {
+footer .colomns .header-footer h3 {
     color: var(--white);
     font-size: 1.5em;
 }
 
-.footer .footer-div .columns .header-footer li {
+footer .columns .header-footer li {
     margin-bottom: 10px;
 }
 
-.footer .footer-div .columns .header-footer li a {
+footer .columns .header-footer li a {
     text-decoration: none;
     font-size: 1em;
     color: var(--white85);
 }
 
-.footer .footer-div .columns .header-footer li a:hover {
+footer .columns .header-footer li a:hover {
     color: var(--white40);
 }
 
-.footer .footer-div .columns .contact {
+footer .columns .contact {
     width: 100%;
     flex-direction: column;
     justify-content: center;
@@ -51,47 +57,47 @@
     margin-left: 1.5em;
 }
 
-.footer .footer-div .columns .contact h3 {
+footer .columns .contact h3 {
     color: var(--white);
     font-size: 1.5em;
 }
 
-.footer .footer-div .columns .contact li {
+footer .columns .contact li {
     margin-bottom: 10px;
 }
 
-.footer .footer-div .columns .contact li a {
+footer .columns .contact li a {
     text-decoration: none;
     font-size: 1em;
     color: var(--white85);
 }
 
-.footer .footer-div .columns .contact li a:hover {
+footer .columns .contact li a:hover {
     color: var(--white40);
 }
 
-.footer .footer-div .div-p {
+p {
     margin-top: 1em;
     justify-content: center;
     align-items: center;
 }
 
-.footer .footer-div .div-p p {
+p .allrights {
     color: var(--white);
 }
 
 @media (min-width: 576px) {
-    .footer .footer-div .columns {
+    footer .columns {
         flex-direction: row;
     }
 
-    .footer .footer-div .columns .header-footer {
+    footer .columns .header-footer {
         width: 49%;
         padding: 0;
         margin-left: 1.5em;
     }
 
-    .footer .footer-div .columns .contact {
+    footer .columns .contact {
         width: 49%;
         padding: 0;
         margin-left: 1.5em;
