@@ -1,2 +1,2 @@
 # ChefHat
-Projeto desenvolvido durante o Hcode Lab.
+Projeto desenvolvido para a avaliação da Hcode Lab.
