@@ -11,6 +11,7 @@
 .page .banner {
     width: 100%;
     height: 450px;
+    margin-top: 15px;
     display: flex;
     flex-direction: column;
     background-image: url('/public/assets/images/photos/waldemar-brandt-yzwKXsjYyDk-unsplash.jpg');
@@ -18,7 +19,8 @@
 }
 
 .page .banner-h1 {
-    margin: 1.5em 0 0 0;
+    margin: 1.5em;
+    margin-left: -8px;
     width: 100%;
     align-items: center;
     justify-content: center;
@@ -30,7 +32,7 @@
     font-weight: bold;
     margin: 0.4em 0;
     line-height: 1.25em;
-    text-shadow: 2px 2px var(--roxo);
+    text-shadow: 2px 2px var(--cream2);
 }
 
 .page .banner-p {
@@ -40,9 +42,9 @@
 }
 
 .page .banner-p p {
-    margin-top: 0;
-    color: var(--white85);
-    font-size: 1.4em;
+    margin-top: -5px;
+    color: var(--cream2);
+    font-size: 1.6em;
 }
 
 .page .form {

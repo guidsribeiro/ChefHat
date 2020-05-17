@@ -7,7 +7,7 @@ footer #footer {
 }
 
 h3 {
-    color: var(--white);
+    color: var(--cream1);
     font-size: 1.5em;
     text-decoration: underline;
 }
@@ -24,7 +24,7 @@ footer #hours {
 
 footer .columns {
     height: 200px;
-    margin-left: -120px;
+    margin-left: -15px;
     margin-bottom: 0px;
     flex-direction: column;
 }
@@ -136,9 +136,9 @@ footer .columns .contact li a:hover {
 footer .allrights {
     color: var(--white);
     margin-top: 13em;
-    margin-left: 15px;
+    margin-left: 60px;
     margin-bottom: 4em;
-    justify-content: flex-start;
+    justify-content: center;
 }
 
 p {
