@@ -5,13 +5,7 @@
     align-items: center;
     display: flex;
     justify-content: space-between;
-<<<<<<< HEAD
-    background-color: var(--black502);
-    border-bottom: solid .1px var(--white);
-    margin-top: 35px;
-=======
     position: relative;
->>>>>>> 612d74820d6a731509147cec852595f89667621f
 }
 
 .header .menu {
@@ -33,19 +27,9 @@
 }
 
 .header .log {
-<<<<<<< HEAD
-    position: absolute;
-    width: 150px;
-    height: 200px;
-    padding: 3px;
-    border-radius: 50%;
-    align-items: center;
-    justify-content: center;
-=======
     width: 90px;
     height: 120px;
     margin-top: 0.8em;
->>>>>>> 612d74820d6a731509147cec852595f89667621f
 }
 
 .header .menu ul {
