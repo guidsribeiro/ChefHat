@@ -1,4 +1,71 @@
 <!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChefHat - Reserva</title>
+    <link rel="shortcut icon" href="/public/assets/logo/ChefHat-white.png" type="image/x-icon">
+    <link rel="stylesheet" href="/public/assets/css/reset.css">
+</head>
+<body>
+    <header class="header">
+        <div id="overlay" data-close="menu"></div>
+        <img class="log" src="/public/assets/logo/ChefHat.svg" alt="logo">
+            <button type="button" id="btn-open">
+                <img src="/public/assets/images/menu-black.png" alt="btn-open">
+            </button>
+        <nav class="menu">
+            <button type="button" id="btn-close" data-close="menu">
+                <img src="/public/assets/images/close-menu.svg" alt="close">
+            </button>
+            <ul>
+                <li><a href='/public/index.html'>Home</a></li>
+                <li><a href='/public/about.html'>Sobre</a></li>
+                <li><a href='/public/menu.html'>Menu</a></li>
+                <li><a href='/public/reservation.html'>Reserva</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="page">
+        <section>
+            <div class="banner">
+                <div class="banner-h1">
+                    <h1>Guarde seu lugar</h1>
+                </div>
+                <div class="banner-p">
+                    <p>Pra que ligar..., faça sua reserva online</p>
+                </div>
+            </div>
+            <div class="form">
+                <form>
+                    <div class="fields">
+                        <div class="field">
+                            <input type="text" name="name" id="name" />
+                            <label for="name">Nome Completo</label>
+                        </div>
+                        <div class="field">
+                            <input type="email" name="email" id="email" />
+                            <label for="email">E-mail</label>
+                        </div>
+                    </div>
+                    <div class="field">
+                        <textarea name="message" id="message"></textarea>
+                        <label for="message">Mensagem</label>
+                    </div>
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        
+    </footer>
+</body>
+</html>
+
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -67,4 +134,4 @@
         </div>
     </footer>
 </body>
-</html>
+</html> -->
