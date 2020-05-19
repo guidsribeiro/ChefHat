@@ -1,19 +1,60 @@
-#about {
-    flex direction: column;
+#our-history {
+    flex: column;
 }
 
-#about .top-about {
-    background-image: url("/public/assets/images/photos/carne-no-gelo-horizontal.jpg");
+#our-history .our-data h1 {
+    background-image: url('/public/assets/images/photos/chefcristiano-1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: var(--white);
+    font-size: 2em;
+    font-weight: bold;
+    line-height: 1.25em;
+    text-shadow: 2px 2px var(--roxo); 
+    width: 100%;
+    height: 800px;
+}
+
+#our-history .our-data h2 {
+    color: var(--white);
+    font-size: 2.8em;
+    font-weight: bold;
+    line-height: 1.25em;
+    text-shadow: 2.5px 1.5px var(--roxo);
+}
+
+#our-history .our-data h3 {
+    color: var(--white);
+    font-size: 1.8em;
+    font-weight: lighter;
+    line-height: 1.25em;
+}
+
+#our-history .the-producer img {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+#our-history 
+
+/* main #about {
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+main #about .top-about > section {
+    background-image: url("/public/assets/images/photos/chefcristiano-1.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
     height: 500px;
     align-items: center;
     justify-content: flex-end;
+} 
 
-}
-
-#about .top-about h1 {
+main #about .top-about > section h1 {
     color: var(--white);
     font-size: 2em;
     font-weight: bold;
@@ -22,10 +63,39 @@
     align-items: end;
 }
 
-#about .top-about > section h2 {
+main #about .top-about > section h2 {
     color: var(--white);
+    font-size: 2.8em;
+    font-weight: bold;
+    margin: 0.5em 0 0.8em 2px;
+    line-height: 1.25em;
+    text-shadow: 2.5px 1.5px var(--roxo);
 }
 
-#about .top-about > section p {
+main #about .top-about > section h3 {
     color: var(--white);
+    font-size: 2.8em;
+    font-weight: bold;
+    margin: 0.5em 0 0.8em 2px;
+    line-height: 1.25em;
+    text-shadow: 2.5px 1.5px var(--roxo);
 }
+
+
+main #about .top-about > section p {
+    color: var(--grayD);
+    height: 100%;
+    display: flex;
+    margin: -10px 0 0 .13em;
+    font-size: 1.18em;
+    justify-content: flex-end;
+}
+
+main #about .top-about > section img {
+    width: 100%;
+    height: 400px;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+} */
+

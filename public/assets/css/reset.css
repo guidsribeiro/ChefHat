@@ -23,8 +23,9 @@ body {
     margin: 0;
 }
 
-label{
-    color: var(--white);
+label {
+    color: var(--roxo02);
+    margin-top: -1.5em;
 }
 
 main {

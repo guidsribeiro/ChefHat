@@ -11,7 +11,7 @@
     height: 600px;
     display: flex;
     padding: 2em;
-    margin-top: 5em;
+  
 }
 
 #home header .text-header {
@@ -205,10 +205,6 @@
     border: solid 1px var(--roxo);
     border-radius: 8px;
     background-color: var(--white);
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
     align-items: center;
     text-align: center;
     font-style: bold;
@@ -218,16 +214,13 @@
 #home .reservhome > div button a {
     font-size: 1em; 
     text-decoration: none;
->>>>>>> 612d74820d6a731509147cec852595f89667621f
 }
 
 
 @media (min-width: 992px) {
-
     #home {
         flex-direction: column;
         width: 100%;
-        height: 100vh;
         display: flex;
         background-color: rgba(16, 16, 16, 1);
     }
@@ -345,5 +338,4 @@
         margin: 0.4em 0;
         line-height: 1.25em;
     }
->>>>>>> 1f81c14146da7bc095f8896c0fdc29e29624f447
 }

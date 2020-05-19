@@ -4,88 +4,75 @@ footer {
 
 footer #footer {
     background-color: var(--black35);
+    flex-direction: column;
 }
 
-h3 {
-    color: var(--cream1);
+#footer #hours .columns .div-hours {
+    text-align: center;
+}
+
+#footer #hours .columns .div-hours h2 {
+    color: var(--roxo);
     font-size: 1.5em;
-    text-decoration: underline;
+    margin-top: 1.8em;
 }
 
-h2 {
+#footer #hours h3 {
     color: var(--white);
     font-size: 1.1em;
-    text-decoration: underline;
+    margin-top: 1.4em;
 }
 
 footer #hours {
     margin-bottom: 1.8em;
 }
 
-footer .columns {
-    height: 200px;
-    margin-left: -15px;
-    margin-bottom: 0px;
+footer #hours .columns {
     flex-direction: column;
 }
 
 footer .columns .hours1 {
-    width: 100%;
+    text-align: center;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 0;
-    margin-top: 1.2em;
     margin-bottom: 0px;
-    margin-left: 1.5em;
+    margin-top: 0;
 }
 
-footer .columns .hours1 h2 {
-    margin-top: 1.4em;
-}
-
-footer .columns .hours1 li {
+footer .columns .hours1 p {
     margin-bottom: 10px;
+    margin-top: 0;
     color: var(--grayD);
-}
-
-footer .columns .hours1 li:hover {
-    color: var(--white40);
 }
 
 footer .columns .hours2 {
-    width: 100%;
+    text-align: center;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
     padding: 0;
     margin-top: 1.2em;
     margin-bottom: 0px;
-    margin-left: 1.5em;
 }
 
-footer .columns .hours2 li {
+footer .columns .hours2 p {
     margin-bottom: 10px;
+    margin-top: 0;
     color: var(--grayD);
-}
-
-footer .columns .hours2 li:hover {
-    color: var(--white40);
-}
+} 
 
 footer .columns .header-footer {
-    width: 100%;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 0;
-    margin-top: 1.2em;
+    margin-top: 0;
     margin-bottom: 0px;
-    margin-left: 1.5em;
 }
 
-footer .colomns .header-footer h3 {
-    color: var(--white);
+footer .columns .header-footer h3 {
+    color: var(--roxo);
     font-size: 1.5em;
 }
 
@@ -104,18 +91,14 @@ footer .columns .header-footer li a:hover {
 }
 
 footer .columns .contact {
-    width: 100%;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 0;
-    margin-top: 1.2em;
-    margin-bottom: 15px;
-    margin-left: 1.5em;
 }
 
 footer .columns .contact h3 {
-    color: var(--white);
+    color: var(--roxo);
     font-size: 1.5em;
 }
 
@@ -124,24 +107,20 @@ footer .columns .contact li {
 }
 
 footer .columns .contact li a {
+    cursor: auto;
     text-decoration: none;
     font-size: 1em;
     color: var(--grayD);
 }
 
-footer .columns .contact li a:hover {
-    color: var(--white40);
-}
-
 footer .allrights {
     color: var(--white);
-    margin-top: 13em;
-    margin-left: 60px;
-    margin-bottom: 4em;
+    margin: 0 0 1.5em 0;
     justify-content: center;
+    align-items: center;
 }
 
-p {
+footer .allrights p {
     margin-top: 2em;
     margin-bottom: 0.1em;
     justify-content: center;
@@ -152,6 +131,29 @@ p {
 @media (min-width: 576px) {
     footer .columns {
         flex-direction: row;
+    }
+        
+    footer #hours .columns {
+        flex-direction: row ;
+    }
+
+    #footer #hours .columns .div-hours {
+        width: 33%;
+    }
+
+    #footer #hours .columns .div-hours h2 {
+        padding-left: 1.5em;
+    }
+
+    footer #hours .columns .hours1 {
+        width: 33%;
+        margin-left: 2.5em;
+        margin-top: 1.2em;
+    }
+
+    footer #hours .columns .hours2 {
+        width: 33%;
+        margin-left: 1.5em;
     }
 
     footer .columns .header-footer {
@@ -164,5 +166,24 @@ p {
         width: 49%;
         padding: 0;
         margin-left: 1.5em;
+        margin-top: 0;
+    }
+}
+
+@media (min-width: 1200px) {
+    footer #footer {
+        flex-direction: column;
+    }
+
+    footer #footer .footer-columns {
+        flex-direction: row;
+    }
+
+    footer #footer div {
+        flex: 1;
+    }
+
+    footer #footer .header-footer {
+        margin: 1.1em 4em 0 4em;
     }
 }
