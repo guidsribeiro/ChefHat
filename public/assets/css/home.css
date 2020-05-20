@@ -215,6 +215,10 @@
 }
 
 @media (min-width: 576px) {
+    #home header {
+        flex-direction: column;
+    }
+
     #home .food {
         background-position: 0 -30vw;
     }
