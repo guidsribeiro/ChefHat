@@ -1,229 +1,284 @@
-/* CHAT DO CLÃ AMARELO */
-
-
-/* Chat "Lucas" 
-
--Hello Master!
-
--Já terminei o variables.css
-*/
-
-/* Chat "João" 
-
--Hello Abacate!
-
-*/
-
-/* Chat "Guilherme" 
-
-
-*/
-
-/* Chat "Erick" 
-
--Hello Master of Photoshop!
-
-*/
 
 #our-history {
     flex: column;
 }
 
-#our-history .our-data {
+
+#our-history .our-data h1 {
     background-image: url('/public/assets/images/photos/chefcristiano-1.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    color: var(--white);
     width: 100%;
     height: 800px;
-}
-
-#our-history .our-data h1 {
-    font-size: 2em;
-    font-weight: bold;
-    line-height: 1.25em;
-    width: 100%;
-    height: 800px; 
-    text-align: left;
-}
-
-#our-history .our-data h2 {
-    color: var(--cream1);
     font-size: 2em;
     font-weight: bold;
     line-height: 1.25em; 
     text-align: left;
-    margin-top: -2.3em;
+    color: var(--white);
+}
+
+#our-history .our-data h2 {
+    color: var(--cream3);
+    font-size: 2em;
+    font-weight: bold;
+    line-height: 1.25em; 
+    text-align: left;
+    position: absolute;
+    margin-top: 3.5em;
 }
 #our-history .half {
-    background-color: black;
     width: 100%;
     height: 200px;
 } 
 
 #our-history .half h3 {
     color: var(--white);
-    font-size: 1.8em;
+    font-size: 1.9em;
     font-weight: bold;
     line-height: 1.25em;
     text-align: center;
+    margin-bottom: 0em;
 }
 
 #our-history .half h4 {
     color: var(--white);
-    font-size: 1.6em;
+    font-size: 1.7em;
     font-weight: lighter;
     text-align: center;
 }
 
 #our-history .the-producer {
     margin: 1em;
-    box-shadow: 0px 0px 10px var(--white);
+    box-shadow: 0px 0px 7px var(--white);
     background-color: var(--black25);
-    margin-bottom: 2em;
-    margin-top: 6em;
+    margin-bottom: 2.5em;
+    margin-top: 4em;
 }
 
 #our-history .the-producer img {
     width: 100%;
-    align-items: center;
-    justify-content: center;
 }
 
 #our-history .the-producer p {
     color: var(--white);
     font-size: 1em;
     font-weight: lighter;
-    line-height: 1em;
-    text-align: center;
-    margin: 0.5em;
+    line-height: 1.5em;
+    text-align: left;
+    margin: 2em;
 }
 
-@media (min-width: 576px) {
+    @media (min-width: 576px) {
+        #our-history {
+            display: flex;
+            flex-direction: column;
+            margin-top: 1em;   
+        }
+        
+        #our-history .our-data h1 {
+            background-image: url('/public/assets/images/photos/chef-preparing-vegetable-dish-on-tree-slab-1267320.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: 0 0;
+            width: 100%;
+            height: 515px;
+            color:var(--white);
+            font-size: 4em;
+            font-weight: bold;
+            -webkit-text-stroke: 2px;
+            -webkit-text-stroke-color: black;
+            line-height: 1.25em; 
+            text-align: center;
+            justify-content: flex-end;
+            
+        }
+        
+        #our-history .our-data h2 {
+            color: var(--white);
+            -webkit-text-stroke: 2px;
+            -webkit-text-stroke-color: black;
+            font-size: 4em;
+            font-weight: bold;
+            line-height: 1.25em;
+            position: absolute;
+            margin-left: 35%; 
+        }
+
+        #our-history .half {
+            width: 100%;
+            height: 350px;
+            font-size: 2.5em;
+            margin: -1.5em 0 3em 0;
+        } 
+        
+        #our-history .half h3 {
+            color: var(--white);
+            font-size: 1.8em;
+            font-weight: bold;
+            line-height: 1.25em;
+            text-align: center;
+        }
+        
+        #our-history .half h4 {
+            color: var(--white);
+            font-size: 1.6em;
+            font-weight: lighter;
+            text-align: center;
+        }
+        
+        #our-history .the-producer {
+            margin: 1em;
+            box-shadow: 0px 0px 7px var(--white);
+            margin-bottom: 2em;
+            margin-top: 6em;
+            flex-direction: row;
+        }
+        
+        #our-history .the-producer img {
+            width: 50%;
+        }
+        
+        #our-history .the-producer p {
+            color: var(--white);
+            font-size: 1.6em;
+            font-weight: lighter;
+            line-height: 1.2em;
+            text-align: center;
+            margin: 0.5em;
+        }
+        
+        
+    }
+
+
+    @media (min-width: 950px) {
+        #our-history {
+            display: flex;
+            flex-direction: column;
+        }
+    
+        #our-history {
+            display: flex;
+            flex-direction: column;
+        }
+    
+        #our-history .our-data {
+         
+        }
+        
+        #our-history .our-data h1 {
+            background-image: url('/public/assets/images/photos/chef-preparing-vegetable-dish-on-tree-slab-1267320.jpg');
+            background-size: cover;
+            width: 100%;
+            height: 800px;
+            color: var(--white);
+            font-size: 6em;
+            font-weight: bold;
+            line-height: 1.25em; 
+            text-align: center;
+        }
+        
+        #our-history .our-data h2 {
+            color: var(--white);
+            font-size: 4em;
+            font-weight: bold;
+            line-height: 1.25em;
+            position: absolute;
+            margin-top: 5em;
+            margin-left: 39%;
+           
+        }
+        #our-history .half {
+            width: 100%;
+            height: 200px;
+            margin-top: -2em;
+            margin-bottom: 5em;
+        } 
+        
+        #our-history .half h3 {
+            color: var(--white);
+            font-size: 2em;
+            font-weight: bold;
+            line-height: 1.25em;
+            text-align: center;
+        }
+        
+        #our-history .half h4 {
+            color: var(--white);
+            font-size: 1.6em;
+            font-weight: lighter;
+            text-align: center;
+        }
+        
+        #our-history .the-producer {
+            margin: 1em;
+            box-shadow: 0px 0px 10px var(--white);
+            background-color: var(--black25);
+            margin-bottom: 2em;
+            margin-top: 10.5em;
+            height: 825px;
+        }
+        
+        #our-history .the-producer img {
+            width: 40%;
+        }
+        
+        #our-history .the-producer p {
+            color: var(--white);
+            font-size: 1.8em;
+            font-weight: lighter;
+            line-height: 1.4em;
+            text-align: center;
+            margin: 1em;
+        }
+
+@media (min-width: 1400px) {
     #our-history {
         display: flex;
         flex-direction: column;
-        margin-top: 1em;   
     }
-    
+
+    #our-history {
+        display: flex;
+        flex-direction: column;
+    }
+
     #our-history .our-data {
-        background-image: url('/public/assets/images/photos/chefcristiano-1.jpg');
-        background-size: cover;
-        background-position: center;
-        width: 100%;
-        height: 600px;
+     
     }
     
     #our-history .our-data h1 {
-        color: var(--white);
-        font-size: 4em;
-        font-weight: bold;
-        line-height: 1.25em; 
-        text-align: left;
-        margin-left: 0.3em;;
-    }
-    
-    #our-history .our-data h2 {
-        color: var(--cream1);
-        font-size: 4em;
-        font-weight: bold;
-        line-height: 1.25em; 
-        text-align: left;
-        margin-top: -2.3em;
-        margin-left: 0.3em;
-    }
-    #our-history .half {
-        background-color: black;
-        width: 100%;
-        height: 200px;
-        margin-top: 28em;
-    } 
-    
-    #our-history .half h3 {
-        color: var(--white);
-        font-size: 1.8em;
-        font-weight: bold;
-        line-height: 1.25em;
-        text-align: center;
-    }
-    
-    #our-history .half h4 {
-        color: var(--white);
-        font-size: 1.6em;
-        font-weight: lighter;
-        text-align: center;
-    }
-    
-    #our-history .the-producer {
-        margin: 1em;
-        box-shadow: 0px 0px 10px var(--white);
-        background-color: var(--black25);
-        margin-bottom: 2em;
-        margin-top: 6em;
-    }
-    
-    #our-history .the-producer img {
-        width: 100%;
-        align-items: center;
-        justify-content: center;
-    }
-    
-    #our-history .the-producer p {
-        color: var(--white);
-        font-size: 1em;
-        font-weight: lighter;
-        line-height: 1em;
-        text-align: center;
-        margin: 0.5em;
-    }
-    
-    
-}
-
-@media (min-width: 1200px) {
-    #our-history {
-        display: flex;
-        flex-direction: column;
-    }
-
-    #our-history {
-        display: flex;
-        flex-direction: column;
-    }
-
-    #our-history .our-data {
-        background-image: url('/public/assets/images/photos/chefcristiano-1.jpg');
+        background-image: url('/public/assets/images/photos/chef-preparing-vegetable-dish-on-tree-slab-1267320.jpg');
         background-size: cover;
         width: 100%;
         height: 800px;
-    }
-    
-    #our-history .our-data h1 {
         color: var(--white);
-        font-size: 2em;
+        font-size: 6em;
         font-weight: bold;
         line-height: 1.25em; 
-        text-align: left;
+        text-align: center;
     }
     
     #our-history .our-data h2 {
-        color: var(--cream1);
-        font-size: 2em;
+        color: var(--white);
+        font-size: 4em;
         font-weight: bold;
-        line-height: 1.25em; 
-        text-align: left;
-        margin-top: -2.3em;
+        line-height: 1.25em;
+        position: absolute;
+        margin-top: 5em;
+        margin-left: 39%;
+       
     }
     #our-history .half {
-        background-color: black;
         width: 100%;
         height: 200px;
-        margin-top: 28em;
+        margin-top: 0em;
+        margin-bottom: 5em;
     } 
     
     #our-history .half h3 {
         color: var(--white);
-        font-size: 1.8em;
+        font-size: 1.9em;
         font-weight: bold;
         line-height: 1.25em;
         text-align: center;
@@ -242,21 +297,20 @@
         background-color: var(--black25);
         margin-bottom: 2em;
         margin-top: 6em;
+        height: 825px;
     }
     
     #our-history .the-producer img {
-        width: 100%;
-        align-items: center;
-        justify-content: center;
+        width: 40%;
     }
     
     #our-history .the-producer p {
         color: var(--white);
-        font-size: 1em;
+        font-size: 2em;
         font-weight: lighter;
-        line-height: 1em;
+        line-height: 1.5em;
         text-align: center;
-        margin: 0.5em;
+        margin: 1em;
     }
 
     
