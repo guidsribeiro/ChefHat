@@ -10,19 +10,19 @@
 <body>
     <header class="header">
         <div id="overlay" data-close="menu"></div>
-        <img class="log" src="/public/assets/logo/ChefHat.svg" alt="logo">
+        <img class="log" src="/public/assets/logo/ChefHat-white.png" alt="logo">
             <button type="button" id="btn-open">
-                <img src="/public/assets/images/menu-black.png" alt="btn-open">
+                <img src="/public/assets/images/logo-cream.png" alt="btn-open">
             </button>
         <nav class="menu">
             <button type="button" id="btn-close" data-close="menu">
                 <img src="/public/assets/images/close-menu.svg" alt="close">
             </button>
             <ul>
-                <li><a href='/public/index.html'><b>Início</b></a></li>
-                <li><a href='/public/about.html'><b>Sobre</b></a></li>
-                <li><a href='/public/menu.html'><b>Menu</b></a></li>
-                <li><a href='/public/reservation.html'><b>Reserva</b></a></li>
+                <li><a href='/public/index.html'>Início</a></li>
+                <li><a href='/public/about.html'>Sobre</a></li>
+                <li><a href='/public/menu.html'>Menu</a></li>
+                <li><a href='/public/reservation.html'>Reserva</a></li>
             </ul>
         </nav>
     </header>
@@ -32,14 +32,16 @@
             <div class="banner">
                 <div class="banner-h1">
                     <h1>Faça Sua Reserva</h1>
-                </div>
+                </div><!-- 
                 <div class="banner-p">
                     <p><b>Pra que ligar! Reserve seu lugar online</b></p>
-                </div>
+                </div> -->
             </div>
-/**/
             <div class="form">
                 <form>
+                    <div>
+                    <h1>Preencha com seus dados e escolha a data em que você terá uma das maiores experiências gastronomicas da sua vida.</h1>
+                    </div>
                     <div class="fields">
                         <div class="field">
                             <input type="text" name="name" id="name" />
@@ -49,11 +51,16 @@
                             <input type="email" name="email" id="email" />
                             <label for="email">E-mail</label>
                         </div>
+                        <div class="field">
+                            <input type="datetime-local" name="datetime-local" id="datetime-local" />
+                            <label for="datetime-local">Data e Hora</label>
+                        </div>
+                        <div class="field">
+                            <textarea name="message" id="message"></textarea>
+                            <label for="message">Quantidade de Lugares</label>
+                        </div>
                     </div>
-                    <div class="field" id="field-textarea">
-                        <textarea name="message" id="message"></textarea>
-                        <label for="message">Mensagem</label>
-                    </div>
+                    
                     <button type="button">Enviar</button>
                 </form>
             </div>

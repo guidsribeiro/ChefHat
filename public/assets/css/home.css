@@ -1,14 +1,12 @@
 #home {
     flex-direction: column;
     width: 100%;
-    max-width: 375px;
     display: flex;
     background-color: rgba(16, 16, 16, 1);
 }
 
 #home header {
     width: 100%;
-    height: 600px;
     display: flex;
     padding: 2em;
   
@@ -34,7 +32,6 @@
     margin-top: 1em;
     margin-left: -75px;
     line-height: 1.25em;
-    text-shadow: 2px 2px var(--roxo);
 } 
 
 #home header .div-button {
@@ -49,23 +46,23 @@
     height: 30px;
     font-size: 1em; 
     background-color: transparent;
-    border: solid 1px var(--roxo);
+    border: solid 1px var(--cream1);
     border-radius: 8px;
-    background-color: var(--white);
+    background-color: var(--black85);
     margin-top: -1.3em;
     margin-left: -75px;
 }
 
 #home header button a {
     text-decoration: none;
-    color: var(--roxo);
+    color: var(--cream1);
 }
 
 #home .history {
     flex-direction: column;
     background-color: var(--black25);
     margin: 1em;
-    box-shadow: 0px 0px 13px var(--white85);
+    box-shadow: 6px 6px 40px var(--white25);
 }
 
 #home .history img {
@@ -84,7 +81,6 @@
     font-weight: bold;
     margin: 0.5em 0 0.8em 2px;
     line-height: 1.25em;
-    text-shadow: 2.5px 1.5px var(--roxo);
 }
 
 #home .history .div-history h3 {
@@ -111,18 +107,18 @@
 #home .history .div-history div a {
     height: 18px;
     text-decoration: none;
-    color: var(--roxo);
+    color: var(--cream1);
     cursor: pointer;
-    margin: 0 0 .35em 0;
+    margin: 1em 0 .35em 0;
 }
 
 #home .food {
     flex-direction: column;
     background-image: url('/public/assets/images/photos/home3.jpg');
     background-size: cover;
-    box-shadow: 0px 0px 13px var(--white85);
+    box-shadow: 6px 6px 40px var(--white25);
     height: 30em;
-    margin: .3em;
+    margin: 1em;
     margin-top: 6em;
 }
 
@@ -131,25 +127,32 @@
     font-size: 2.8em;
     font-weight: bold;
     line-height: 1.25em;
-    text-shadow: 2.5px 1.5px var(--roxo);
-    margin-top: 0;
-    margin-left: 5px;
+    margin-top: .5em;
+    margin-left: 1em;
+    margin-bottom: 0;
 }
 
 #home .food h3 {
     height: 18px;
+    margin-left: 2.5em;
+    line-height: 1.25em;
+    margin-top: 6px;
+}
+
+#home .food h3 a {
     text-decoration: none;
-    color: var(--roxo);
-    cursor: pointer;
-    margin-top: -2em;
-    margin-left: 10px;
+    color: var(--cream1);
+}
+
+#home .ingredients {
+    margin: 1em;
 }
 
 #home .ingredients img {
     width: 90%;
     height: 90%;
     margin: 1em 1.2em;
-    box-shadow: 0px 0px 13px var(--white85);
+    background-color: rgba(16, 16, 16, 1);
 }
 
 #home .ingredients h2 {
@@ -157,17 +160,15 @@
     font-size: 2.8em;
     font-weight: bold;
     line-height: 1.25em;
-    text-shadow: 2.5px 1.5px var(--roxo);
     margin-left: 5px;
 }
 
 #home .ingredients h3 {
-    height: 18px;
     text-decoration: none;
-    color: var(--roxo);
-    cursor: pointer;
-    margin-top: -2.2em;
+    color: var(--cream1);
+    margin-top: -1.2em;
     margin-left: 7px;
+    margin-bottom: 0;
 }
 
 #home .ingredients p {
@@ -182,7 +183,7 @@
     background-image: url('/public/assets/images/photos/reservhome.jpg');
     background-size: cover;
     height: 500px;
-    margin: .3em;
+    margin: 0;
     margin-top: 6em;
 }
 
@@ -191,7 +192,6 @@
     font-size: 2em;
     font-weight: bold;
     line-height: 1.25em;
-    text-shadow: 2.5px 1.5px var(--roxo);
     margin-top: 12em;
     text-align: center;
 }
@@ -201,22 +201,27 @@
     width: 140px;
     height: 30px;
     font-size: 1em; 
-    background-color: transparent;
-    border: solid 1px var(--roxo);
+    border: solid 1px var(--cream1);
     border-radius: 8px;
-    background-color: var(--white);
+    background-color: var(--black85);
     align-items: center;
     text-align: center;
-    font-style: bold;
     margin-left: 50%; 
 }
 
 #home .reservhome > div button a {
     font-size: 1em; 
     text-decoration: none;
+    color: var(--cream1);
 }
 
+@media (min-width: 576px) {
+    #home .food {
+        background-position: 0 -30vw;
+    }
+}
 
+/* 
 @media (min-width: 992px) {
     #home {
         flex-direction: column;
@@ -249,7 +254,6 @@
         font-weight: bold;
         margin: 0.4em 0;
         line-height: 1.25em;
-        text-shadow: 2px 2px var(--roxo);
     } 
 
     #home header .div-button {
@@ -264,14 +268,14 @@
         height: 60px;
         font-size: 2em; 
         background-color: transparent;
-        border: solid 1px var(--roxo);
+        border: solid 1px var(--cream1);
         border-radius: 8px;
         background-color: var(--white);
     }
 
     #home header button a {
         text-decoration: none;
-        color: var(--roxo);
+        color: var(--cream1);
     }
 
     #home .history {
@@ -298,7 +302,6 @@
         font-weight: bold;
         margin: 0.5em 0 0.8em 0;
         line-height: 1.25em;
-        text-shadow: 2.5px 1.5px var(--roxo);
     }
 
     #home .history .div-history h3 {
@@ -326,7 +329,7 @@
     #home .history .div-history div a {
         height: 18px;
         text-decoration: none;
-        color: var(--roxo); 
+        color: var(--cream1); 
         cursor: pointer;
     }
 
@@ -338,4 +341,4 @@
         margin: 0.4em 0;
         line-height: 1.25em;
     }
-}
+} */

@@ -12,7 +12,7 @@ footer #footer {
 }
 
 #footer #hours .columns .div-hours h2 {
-    color: var(--roxo);
+    color: var(--cream1);
     font-size: 1.5em;
     margin-top: 1.8em;
 }
@@ -72,7 +72,7 @@ footer .columns .header-footer {
 }
 
 footer .columns .header-footer h3 {
-    color: var(--roxo);
+    color: var(--cream1);
     font-size: 1.5em;
 }
 
@@ -98,7 +98,7 @@ footer .columns .contact {
 }
 
 footer .columns .contact h3 {
-    color: var(--roxo);
+    color: var(--cream1);
     font-size: 1.5em;
 }
 
