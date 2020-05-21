@@ -53,3 +53,126 @@
     margin: 10px;
 }
 
+@media (min-width: 575px) {
+    #menu {
+        width: 100%;
+    }
+    
+    #menu h1 {
+        text-align: center;
+        margin-top: -2em;
+        color: var(--white);
+        text-align: center;
+        font-size: 3em;
+        font-weight: bold;
+        -webkit-text-stroke: 2px;
+        -webkit-text-stroke-color: black;
+    }
+    
+    #menu img {
+        width: 100%;
+        height: 600px;
+        margin-top: 1em;
+    }
+
+    #menu .menu-itens {
+        display: flex;
+    }
+    
+    #menu .menu-itens img {
+        max-width: 100%;
+        display: block;
+        height: 400px
+    }
+    
+    #menu .menu-itens {
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 400px;
+        margin: 0 auto;
+    }
+    
+    #menu .menu-itens h4 {
+        color: var(--white);
+        font-size: 2em;
+        font-weight: lighter;
+        line-height: 1em;
+        text-align: left;
+    }
+    
+    #menu .menu-itens p {
+        color: var(--white);
+        font-size: 2em;
+        font-weight: bold;
+        line-height: 1em;
+        text-align: left;
+        margin-top: -1em;
+    }
+    
+    #menu .menu-itens > div {
+        flex: 1 1 200px;
+        margin: 10px;
+    }
+}
+
+@media (min-width: 975px) {
+    #menu {
+        width: 100%;
+    }
+    
+    #menu h1 {
+        text-align: center;
+        margin-top: -2em;
+        color: var(--white);
+        text-align: center;
+        font-size: 12em;
+        font-weight: bold;
+        -webkit-text-stroke: 2px;
+        -webkit-text-stroke-color: black;
+    }
+    
+    #menu img {
+        width: 100%;
+        height: 800px;
+        margin-top: 1em;
+    }
+
+    #menu .menu-itens {
+        display: flex;
+    }
+    
+    #menu .menu-itens img {
+        max-width: 100%;
+        display: block;
+        height: 400px
+    }
+    
+    #menu .menu-itens {
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 400px;
+        margin: 0 auto;
+    }
+    
+    #menu .menu-itens h4 {
+        color: var(--white);
+        font-size: 2em;
+        font-weight: lighter;
+        line-height: 1em;
+        text-align: left;
+    }
+    
+    #menu .menu-itens p {
+        color: var(--white);
+        font-size: 2em;
+        font-weight: bold;
+        line-height: 1em;
+        text-align: left;
+        margin-top: -1em;
+    }
+    
+    #menu .menu-itens > div {
+        flex: 1 1 200px;
+        margin: 10px;
+    }
+}
