@@ -68,7 +68,6 @@
     height: 300px;
     background-size: cover;
 }
-
 #home .div-history {
     flex-direction: column;
     margin: 1em 3.5em;
@@ -374,6 +373,10 @@
 @media (min-width: 1800px) {
     #home header h1 {
         margin-right: 10em;
+    }
+
+    #home header .text-header {
+        margin-left: 9em;
     }
 }
 
