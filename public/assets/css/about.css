@@ -130,7 +130,7 @@
             margin: 1em;
             box-shadow: 0px 0px 7px var(--white);
             margin-bottom: 2em;
-            margin-top: 6em;
+            margin-top: 18em;
             flex-direction: row;
         }
         
@@ -232,6 +232,90 @@
             margin: 1em;
         }
 
+
+        @media (min-width: 951px) {
+            #our-history {
+                display: flex;
+                flex-direction: column;
+            }
+        
+            #our-history {
+                display: flex;
+                flex-direction: column;
+            }
+        
+            #our-history .our-data {
+             
+            }
+            
+            #our-history .our-data h1 {
+                background-image: url('/public/assets/images/photos/chef-preparing-vegetable-dish-on-tree-slab-1267320.jpg');
+                background-size: cover;
+                width: 100%;
+                height: 800px;
+                color: var(--white);
+                font-size: 6em;
+                font-weight: bold;
+                line-height: 1.25em; 
+                text-align: center;
+            }
+            
+            #our-history .our-data h2 {
+                color: var(--white);
+                font-size: 4em;
+                font-weight: bold;
+                line-height: 1.25em;
+                position: absolute;
+                margin-top: 5em;
+                margin-left: 39%;
+               
+            }
+            #our-history .half {
+                width: 100%;
+                height: 200px;
+                margin-top: -2em;
+                margin-bottom: 5em;
+            } 
+            
+            #our-history .half h3 {
+                color: var(--white);
+                font-size: 2em;
+                font-weight: bold;
+                line-height: 1.25em;
+                text-align: center;
+            }
+            
+            #our-history .half h4 {
+                color: var(--white);
+                font-size: 1.6em;
+                font-weight: lighter;
+                text-align: center;
+            }
+            
+            #our-history .the-producer {
+                margin: 1em;
+                box-shadow: 0px 0px 10px var(--white);
+                background-color: var(--black25);
+                margin-bottom: 2em;
+                margin-top: 10.5em;
+                height: 825px;
+            }
+            
+            #our-history .the-producer img {
+                width: 40%;
+            }
+            
+            #our-history .the-producer p {
+                color: var(--white);
+                font-size: 1.7em;
+                font-weight: lighter;
+                line-height: 1.3em;
+                text-align: center;
+                margin: 1em;
+            }
+
+
+
 @media (min-width: 1400px) {
     #our-history {
         display: flex;
@@ -306,7 +390,7 @@
     
     #our-history .the-producer p {
         color: var(--white);
-        font-size: 2em;
+        font-size: 1.9em;
         font-weight: lighter;
         line-height: 1.5em;
         text-align: center;
