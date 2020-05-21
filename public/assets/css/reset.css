@@ -29,18 +29,6 @@ label {
     margin-top: .5em;
 }
 
-main {
-    flex-direction: column;
-}
-div {
-    flex-direction: column;
-}
-header {
-    flex-direction: column;
-}
-footer {
-    flex-direction: column;
-}
-section {
+main, div, header, footer, section {
     flex-direction: column;
 }

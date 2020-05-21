@@ -1,3 +1,7 @@
+#menu {
+    width: 100%;
+}
+
 #menu h1 {
     text-align: center;
     margin-top: 100px;
@@ -11,11 +15,20 @@
 #menu .menu-itens {
     display: flex;
     flex-wrap: wrap;
-    max-width: 600px;
+    max-width: 400px;
     margin: 0 auto;
+}
+
+#menu .menu-itens p {
+    color: var(--white);
+    font-size: 1em;
+    font-weight: lighter;
+    line-height: 1.5em;
+    text-align: left;
 }
 
 #menu .menu-itens > div {
     flex: 1 1 200px;
     margin: 10px;
 }
+

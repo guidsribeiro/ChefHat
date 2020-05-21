@@ -13,15 +13,14 @@
 }
 
 #home header .text-header {
-    margin-left: 4em;
+    margin-left: 1em;
     flex-direction: column;
     justify-content: center;
 }
 
 #home header .img-header {
     margin-right: 6em;
-    max-width: 100%;
-    background-size: cover;
+    width: 100%;
     margin: 0.5em;
 }
 
@@ -30,8 +29,8 @@
     font-size: 2em;
     font-weight: bold;
     margin-top: 1em;
-    margin-left: -75px;
     line-height: 1.25em;
+    transition: color 1s ease-in-out;
 } 
 
 #home header .div-button {
@@ -50,7 +49,6 @@
     border-radius: 8px;
     background-color: var(--black85);
     margin-top: -1.3em;
-    margin-left: -75px;
 }
 
 #home header button a {
@@ -60,14 +58,15 @@
 
 #home .history {
     flex-direction: column;
-    background-color: var(--black25);
     margin: 1em;
     box-shadow: 6px 6px 40px var(--white25);
 }
 
-#home .history img {
+#home .history .div-img {
+    background-image: url('/public/assets/images/photos/carne-no-gelo-horizontal.jpg');
     width: 100%;
-    border-right: solid 1px var(--white25);
+    height: 300px;
+    background-size: cover;
 }
 
 #home .div-history {
@@ -102,6 +101,8 @@
     height: 100%;
     display: flex;
     margin-top: .5em;
+    align-items: flex-end;
+    justify-content: flex-end;
 }
 
 #home .history .div-history div a {
@@ -112,14 +113,18 @@
     margin: 1em 0 .35em 0;
 }
 
+#home .history .div-history div a:hover {
+    color: var(--grayD);
+    transition: color .3s ease-in-out;
+}
+
 #home .food {
     flex-direction: column;
     background-image: url('/public/assets/images/photos/home3.jpg');
     background-size: cover;
     box-shadow: 6px 6px 40px var(--white25);
     height: 30em;
-    margin: 1em;
-    margin-top: 2em;
+    margin-top: 3em;
 }
 
 #home .food h2 {
@@ -144,8 +149,13 @@
     color: var(--cream1);
 }
 
+#home .food h3 a:hover {
+    color: var(--cream2);
+    transition: color .5s ease-in-out;
+}
+
 #home .ingredients {
-    margin: 1em;
+    margin: 3em 1em 1em 1em;
 }
 
 #home .ingredients img {
@@ -220,74 +230,32 @@
     }
 }
 
-/* 
 @media (min-width: 992px) {
-    #home {
-        flex-direction: column;
-        width: 100%;
-        display: flex;
-        background-color: rgba(16, 16, 16, 1);
-    }
-
     #home header {
-        width: 100%;
-        min-width: 320px;
-        height: 800px;
-        display: flex;
-        padding: 3em;
+        flex-direction: row;
     }
 
     #home header .text-header {
-        margin-left: 4em;
-        flex-direction: column;
-        justify-content: center;
+        margin-bottom: 10em;
     }
 
     #home header .img-header {
-        margin-right: 6em;
-    }
-
-    #home header h1 {
-        color: var(--white);
-        font-size: 3.3em;
-        font-weight: bold;
-        margin: 0.4em 0;
-        line-height: 1.25em;
-    } 
-
-    #home header .div-button {
         width: 100%;
-        margin-top: 1em;
-        justify-content: flex-start;
-    }
-
-    #home header button {
-        justify-content: center;
-        width: 225px;
-        height: 60px;
-        font-size: 2em; 
-        background-color: transparent;
-        border: solid 1px var(--cream1);
-        border-radius: 8px;
-        background-color: var(--white);
-    }
-
-    #home header button a {
-        text-decoration: none;
-        color: var(--cream1);
+        margin: 0.5em;
     }
 
     #home .history {
         flex-direction: row;
         background-color: var(--black25);
         margin: 5em;
-        box-shadow: 0px 0px 13px var(--white85);
     }
 
-    #home .history img {
-       width: 50%;
-       height: 480px;
-       border-right: solid 1px var(--white25);
+    #home .history .div-img {
+        width: 500%;
+        border-right: solid 1px var(--white25);
+        background-size: cover;
+        background-position: -10vh 0;
+        height: initial;
     }
 
     #home .div-histordy {
@@ -317,14 +285,6 @@
         font-size: 1.18em;
     }
 
-    #home .history .div-history div {
-        color: var(--grayD);
-        height: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: flex-end;
-    }
-
     #home .history .div-history div a {
         height: 18px;
         text-decoration: none;
@@ -332,12 +292,93 @@
         cursor: pointer;
     }
 
-    #home .food h2 {
-        float: right;
-        color: var(--white);
-        font-size: 4em;
-        font-weight: bold;
-        margin: 0.4em 0;
-        line-height: 1.25em;
+    #home .food {
+        background-position: 0 -41vw;
     }
-} */
+
+    #home .food h2 {
+        margin-top: 1.5em;
+        margin-left: 2em;
+    }
+
+    #home .food h3 {
+        margin-left: 5em;
+    }
+
+    #home .ingredients {
+        margin: 2.5em 5em 2em 5em;
+    }
+
+    #home .reservhome {
+        background-position: 0 50vw;
+    }
+}
+
+@media (min-width: 1200px) {
+    #home header .img-header {
+        margin-left: -3em;
+    }
+
+    #home .history .div-img {
+        background-position: 0 0;
+    }
+
+    #home .ingredients {
+        margin: 2.5em 7em 2em 7em;
+    }
+}
+
+@media (min-width: 1450px) {
+    #home header h1 {
+        transition: margin 1s ease-in-out;
+        margin-right: 1.5em;
+    }
+
+    #home .food {
+        height: 600px;
+        background-position: 0 95vw;
+    }
+}
+
+
+@media (min-width: 1600px) {
+    #home header h1 {
+        transition: margin 1s ease-in-out;
+        margin-right: 4em;
+    }
+
+    #home .history {
+        height: 600px;
+    }
+
+    #home .ingredients .div-image-ingredients {
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #home .ingredients img {
+        width: 60%;
+        height: 60%;
+    }
+
+    #home .reservhome {
+        height: 700px;
+    }
+
+    #home .reservhome h2 {
+        margin-top: 18.5em;
+    }
+}
+
+@media (min-width: 1800px) {
+    #home header h1 {
+        margin-right: 10em;
+    }
+}
+
+@media (min-width: 1920px) {
+    #home header h1 {
+        margin-right: 12em;
+    }
+}
