@@ -4,6 +4,7 @@
 @import 'home.css';
 @import 'reservation.css';
 @import 'about.css';
+@import 'menu.css';
 
 * {
     box-sizing: border-box;

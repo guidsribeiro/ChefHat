@@ -1,0 +1,21 @@
+#menu h1 {
+    text-align: center;
+    margin-top: 100px;
+}
+
+#menu .menu-itens img {
+    max-width: 100%;
+    display: block;
+}
+
+#menu .menu-itens {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#menu .menu-itens > div {
+    flex: 1 1 200px;
+    margin: 10px;
+}
