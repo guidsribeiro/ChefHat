@@ -9,17 +9,39 @@
     background-size: cover;
 }
 
-.page .banner .banner-h1 {
+.page .banner .banner-text {
     width: 100%;
     height: 600px;
     justify-content: center;
     align-items: center;
-    padding-bottom: 9em;
+    padding-bottom: 9em; 
 }
 
-.page .banner .banner-h1 h1 {
+.page .banner .banner-text h1 {
     color: var(--white);
-    font-size: 2.3em;
+    font-size: 3em;
+    font-family: 'Sacramento', cursive;
+    font-weight: bold;
+    margin-bottom: 0;
+    margin-top: 2em;
+}
+
+.page .banner .banner-text .text-corona {
+    padding: 3em;
+    align-items: center;
+    justify-content: center;
+    padding-top: 0;
+}
+
+.page .banner .banner-text .text-corona h2 {
+    font-size: 2em;
+    color: var(--cream1);
+}
+
+.page .banner .banner-text .text-corona p {
+    font-size: 1.5em;
+    color: var(--white);
+    font-weight: bold;
 }
 
 .page .form {
@@ -40,142 +62,70 @@
     border-radius: 6px;
 }
 
-.page .form .fields .field:hover {
-    border-color: var(--white);
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* .page {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-}
-
-.page section {
-    width: 100%;
-} sim
-
-.page .banner {
-    width: 100%;
-    height: 450px;
-    margin-top: 15px;
-    display: flex;
-    flex-direction: row;
-    background-image: url('/public/assets/images/photos/reservation-header.jpg');
-    background-size: cover;
-}
-
-.page .banner-h1 {
-    text-align: center;
-    width: 100%;
-    height: 100%;
-    padding: 0 1.5em 18em 1.5em;
-    align-items: center;
-    justify-content: center;
-}
-
-.page .banner-h1 h1 {
+.page .form .fields .field input,
+.page .form .fields .field textarea {
+    height: 40px;
+    border-radius: 6px;
+    border: none;
+    background-color: transparent;
     color: var(--white);
-    font-size: 2em;
-    font-weight: bold;
-    margin-top: 6em;
-    line-height: 1.25em;
+    padding: .8em;
 }
 
-.page .form {
-    margin-top: 2em;
-    width: 100%;
+.page .form .fields .field textarea {
+    height: 100px;
 }
 
-.page .form form {
-    flex-direction: row;
-}
-
-.page .form form h1 {
-    margin: 0em 1em 1em 1em;
-    color: var(--white);
-    font-size: 1.5em;
-    font-weight: lighter;
-    line-height: 1.25em;
-    text-shadow: 1.2px 1.2px var(--yellow);
-
-}
-
-.page .form .fields {
-    width: 96%;
-    justify-content: center;
-    margin: 0 3em;
-    color: var(--white);    
-}
-
-.page .form .fields .field {
-    border: solid .1em var(--grayC);
-    border-radius: 2px;
-    margin-bottom: .5em;
-    color: var(--white);
-}
 
 .page .form button {
-    border: none;
-    width: 6em; 
-    padding: 8px;
-    margin-left: 0.3em;
-    margin-top: .6em;
-    margin-bottom: .8em;
-    outline: 15em;
-    background: var(--grayC);
-    text-align: center;
-    justify-content: center;
-    text-decoration: var(--cream2);
-    
+    width: 100%;
+    height: 60px;
+    border-radius: 6px;
+    background-color: var(--white);
+    border: 3px solid var(--cream1);
+    align-items: center;
+    justify-content:  center;
+    font-size: 1.5em;
+    color: var(--black);
+    cursor: pointer;
+    outline: none;
+    margin-bottom: 2em;
 }
-
 
 .page .form button:hover {
-    color: var(--cream2);
+    opacity: .8;
+    transition: all .3s ease-in-out;
+}
+
+.page .form button:active {
+    opacity: .4;
 }
 
 
-@media (min-width: 1200px) {
+@media (min-width: 992px) {
 
     .page {
         width: 100%;
         display: flex;
         flex-direction: row;
+        flex: 1;
     }
     
     .page section {
         display: flex;
         flex-direction: row;
-        margin: 74px 0;
+        margin-top: 1em;
     }
     
     .page .banner {
-        width: 50%;
-        height: 450px;
+        height: 100vh;
         margin-top: 15px;
         background-image: url('/public/assets/images/photos/reservation-header.jpg');
         background-size: cover;
         background-position-y: center;
     }
     
-    .page .banner-h1 {
+    .page .banner-text {
         text-align: center;
         width: 100%;
         height: 100%;
@@ -184,7 +134,7 @@
         justify-content: center;
     }
     
-    .page .banner-h1 h1 {
+    .page .banner-text h1 {
         color: var(--white);
         font-size: 2.5em;
         font-weight: bold;
@@ -193,71 +143,50 @@
         line-height: 1.25em;
         text-shadow: 1.5px 1.5px var(--yellow);
     }
+
+    .page .banner .banner-text .text-corona {
+        padding: 3em;
+        align-items: center;
+        justify-content: center;
+        padding-top: 0;
+    }
     
-    /* .page .banner-p {
+    .page .form .fields { 
+        align-items: center;
+        justify-content: center;
+    }
+
+    .page .form h2 {
+        padding: 0 1em;
+    }
+
+    .page .form .fields .field {
+        min-width: 500px;
+    }
+
+    .page .form .div-button {
         width: 100%;
         align-items: center;
         justify-content: center;
     }
-    
-    .page .banner-p p {
-        margin-top: -5px;
-        color: var(--cream2);
-        font-size: 1.6em;
-        text-shadow: 2px 2px var(--white);
-    } */
-  /*   
-    .page .form {
-        margin-top: 0em;
-        width: 50%;
+
+    .page .form .div-button button {
+        max-width: 500px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .page .form .fields .field {
+        min-width: 700px;
+    }
+
+    .page .form .div-button {
+        width: 100%;
         align-items: center;
         justify-content: center;
     }
-    
-    .page .form form {
-        flex-direction: row;
-        width: 50%;
+
+    .page .form .div-button button {
+        max-width: 700px;
     }
-    
-    .page .form form h1 {
-        margin: 0em 1em 1em 1em;
-        color: var(--white);
-        font-size: 1.2em;
-        font-weight: lighter;
-        line-height: 1.25em;
-        text-shadow: 1.2px 1.2px var(--yellow);
-    }
-    
-    .page .form .fields {
-        width: 96%;
-        justify-content: center;
-        margin: 0 .1em .1em .3em;
-        color: var(--white);    
-    }
-    
-    .page .form .fields .field {
-        border: solid .1em var(--grayC);
-        border-radius: 2px;
-        margin-bottom: .5em;
-        color: var(--white);
-    }
-    
-    .page .form button {
-        border: none;
-        width: 6em;
-        padding: 8px;
-        margin-left: 40%;
-        margin-top: .6em;
-        margin-bottom: .8em;
-        outline: 15em;
-        background: var(--grayC);
-        text-align: center;
-        justify-content: center;
-        text-decoration: var(--cream2);
-    }
-    
-    
-    .page .form button:hover {
-        color: var(--yellow);
-    }
-} */ */
+}

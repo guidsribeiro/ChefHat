@@ -5,6 +5,9 @@
 @import 'reservation.css';
 @import 'about.css';
 @import 'menu.css';
+@import '404.css';
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+
 
 * {
     box-sizing: border-box;

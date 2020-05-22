@@ -2,9 +2,10 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
+    <meta name="Description" content="Chef Hat Restaurante, São Paulo, melhor comida da cidade, até R$100,00 ">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ChefHat - Reserva</title>
-    <link rel="shortcut icon" href="/public/assets/logo/ChefHat-white.svg" type="image/x-icon">
+    <link rel="shortcut icon" href="/public/assets/logo/logo-icon.svg" type="image/x-icon">
     <link rel="stylesheet" href="/public/assets/css/reset.css">
 </head>
 <body>
@@ -32,8 +33,12 @@
     <main class="page">
         <section>
             <div class="banner">
-                <div class="banner-h1">
+                <div class="banner-text">
                     <h1>Faça Sua Reserva</h1>
+                    <div class="text-corona">
+                        <h2>IMPORTANTE</h2>
+                        <p>Devido a pandemia do novo coronavírus, não estamos abertos ao público, pessa seu delivery agora mesmo, o telefone está no rodapé.</p>
+                    </div>
                 </div>
             </div>
             <div class="form">
@@ -43,7 +48,7 @@
                     </div>
                     <div class="fields">
                         <div class="field">
-                            <input type="text" placeholder="Lucas " name="name" id="name" />
+                            <input type="text" placeholder="Nome " name="name" id="name" />
                             <label for="name" >Nome Completo</label>
                         </div>
                         <div class="field">
@@ -55,12 +60,18 @@
                             <label for="datetime-local">Data e Hora</label>
                         </div>
                         <div class="field">
-                            <textarea name="message" id="message" placeholder="2 Pessoas"></textarea>
-                            <label for="message">Quantidade de Lugares</label>
+                            <input type='number' name="message" id="message" placeholder="2" />
+                            <label for="number">Quantidade de Lugares</label>
+                        </div>
+                        <div class="field">
+                            <textarea name="message" id="message" placeholder="Quero uma mesa em um lugar toperson"></textarea>
+                            <label for="message">Comentário adicional - opicional</label>
                         </div>
                     </div>
-                    
-                    <button type="button">Enviar</button>
+
+                    <div class="div-button">
+                        <button type="button">Enviar</button>
+                    </div>
                 </form>
             </div>
         </section>
