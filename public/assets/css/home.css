@@ -9,7 +9,6 @@
     width: 100%;
     display: flex;
     padding: 2em;
-  
 }
 
 #home header .text-header {
@@ -60,6 +59,7 @@
     flex-direction: column;
     margin: 1em;
     box-shadow: 6px 6px 40px var(--white25);
+    background-image: linear-gradient(to right top, #555555, #6f5c68, #936162, #a2704a, #8e8c3b);
 }
 
 #home .history .div-img {

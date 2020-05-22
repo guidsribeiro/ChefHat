@@ -1,32 +1,8 @@
-/* CHAT DO CLÃ AMARELO */
-
-
-/* Chat "Lucas" 
-
--Hello Master!
-
-*/
-
-/* Chat "João" 
-
--Hello Abacate!
-
-*/
-
-/* Chat "Guilherme" 
-
--Hello World!
-
-*/
-
-/* Chat "Erick" 
-
--Hello Master of Photoshop!
-
-*/
-
 :root {
     --black: #000;
+    --black18: #181818;
+    --black25: #25252549;
+    --black35: #35353560;
     --black75: #00000075;
     --white: #fff;
     --white85: #ffffff85;
@@ -35,9 +11,6 @@
     --grayC: #CCC;
     --grayD: #ddd;
     --grayE: #eee;
-    --black18: #181818;
-    --black25: #25252549;
-    --black35: #35353560;
     --cream1: rgb(241, 240, 175);
     --cream2: rgb(255, 253, 139);
     --cream3: rgb(252, 249, 96);;

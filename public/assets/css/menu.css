@@ -1,16 +1,27 @@
+.page-menu {
+    width: 100%;
+    flex-direction: column;
+}
+
 #menu {
+    margin-top: .5em;
     width: 100%;
 }
 
-#menu h1 {
+#menu .header-menu {
+    background-image: url('/public/assets/images/photos/white-and-brown-cooked-dish-on-white-ceramic-bowls-958545.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 600px;
     text-align: center;
-    margin-top: -2em;
+    justify-content: center;
+    margin-bottom: 3em;
+}
+
+#menu .header-menu h1 {
     color: var(--white);
-    text-align: center;
-    font-size: 3em;
+    font-size: 4em;
     font-weight: bold;
-    -webkit-text-stroke: 2px;
-    -webkit-text-stroke-color: black;
 }
 
 #menu img {
@@ -20,15 +31,16 @@
 }
 
 #menu .menu-itens img {
-    max-width: 100%;
+    width: 100%;
+    max-width: 450px;
     display: block;
 }
 
-#menu .menu-itens {
+#menu .menu-itens { 
     display: flex;
-    flex-wrap: wrap;
-    max-width: 400px;
+    flex-wrap: wrap; 
     margin: 0 auto;
+    width: 80%;
 }
 
 #menu .menu-itens h4 {
@@ -65,8 +77,6 @@
         text-align: center;
         font-size: 3em;
         font-weight: bold;
-        -webkit-text-stroke: 2px;
-        -webkit-text-stroke-color: black;
     }
     
     #menu img {
@@ -77,10 +87,12 @@
 
     #menu .menu-itens {
         display: flex;
+        margin: auto;
     }
     
     #menu .menu-itens img {
-        max-width: 100%;
+        width: 100%;
+        max-width: 450px;
         display: block;
         height: 400px
     }
@@ -88,7 +100,6 @@
     #menu .menu-itens {
         display: flex;
         flex-wrap: wrap;
-        max-width: 400px;
         margin: 0 auto;
     }
     
@@ -112,10 +123,11 @@
     #menu .menu-itens > div {
         flex: 1 1 200px;
         margin: 10px;
+        align-items: center;
     }
 }
 
-@media (min-width: 975px) {
+@media (min-width: 992px) {
     #menu {
         width: 100%;
     }
@@ -127,31 +139,28 @@
         text-align: center;
         font-size: 12em;
         font-weight: bold;
-        -webkit-text-stroke: 2px;
-        -webkit-text-stroke-color: black;
     }
     
     #menu img {
         width: 100%;
-        height: 800px;
+        height: 400px;
         margin-top: 1em;
-    }
-
-    #menu .menu-itens {
-        display: flex;
     }
     
     #menu .menu-itens img {
-        max-width: 100%;
+        width: 100%;
+        min-width: 400px;
+        max-width: 450px;
         display: block;
         height: 400px
     }
     
-    #menu .menu-itens {
+    .page-menu #menu .menu-itens {
+        width: 100%;
         display: flex;
         flex-wrap: wrap;
-        max-width: 400px;
         margin: 0 auto;
+        flex-direction: row;
     }
     
     #menu .menu-itens h4 {

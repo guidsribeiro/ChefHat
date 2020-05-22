@@ -10,7 +10,9 @@
 <body>
     <header class="header">
         <div id="overlay" data-close="menu"></div>
-        <img class="log" src="/public/assets/logo/ChefHat-white.png" alt="logo">
+        <div class="log">
+            <img src="/public/assets/logo/ChefHat-white.png" alt="logo">
+        </div>
             <button type="button" id="btn-open">
                 <img src="/public/assets/images/logo-cream.png" alt="btn-open">
             </button>
@@ -18,7 +20,7 @@
             <button type="button" id="btn-close" data-close="menu">
                 <img src="/public/assets/images/close-menu.svg" alt="close">
             </button>
-            <ul>
+            <ul> 
                 <li><a href='/public/index.html'>Início</a></li>
                 <li><a href='/public/about.html'>Sobre</a></li>
                 <li><a href='/public/menu.html'>Menu</a></li>
@@ -32,23 +34,20 @@
             <div class="banner">
                 <div class="banner-h1">
                     <h1>Faça Sua Reserva</h1>
-                </div><!-- 
-                <div class="banner-p">
-                    <p><b>Pra que ligar! Reserve seu lugar online</b></p>
-                </div> -->
+                </div>
             </div>
             <div class="form">
                 <form>
                     <div>
-                    <h1>Preencha com seus dados e escolha a data em que você terá uma das maiores experiências gastronômicas da sua vida.</h1>
+                        <h2>Preencha com seus dados e escolha a data em que você terá uma das maiores experiências gastronomicas da sua vida.</h2>
                     </div>
                     <div class="fields">
                         <div class="field">
-                            <input type="text" name="name" id="name" />
-                            <label for="name">Nome Completo</label>
+                            <input type="text" placeholder="Lucas " name="name" id="name" />
+                            <label for="name" >Nome Completo</label>
                         </div>
                         <div class="field">
-                            <input type="email" name="email" id="email" />
+                            <input type="email" name="email" id="email" placeholder="support@chefhat.com" />
                             <label for="email">E-mail</label>
                         </div>
                         <div class="field">
@@ -56,7 +55,7 @@
                             <label for="datetime-local">Data e Hora</label>
                         </div>
                         <div class="field">
-                            <textarea name="message" id="message"></textarea>
+                            <textarea name="message" id="message" placeholder="2 Pessoas"></textarea>
                             <label for="message">Quantidade de Lugares</label>
                         </div>
                     </div>
@@ -69,35 +68,37 @@
 
     <footer>
         <div id="footer">
-            <div id="hours">
-                <div class="columns"> 
-                    <div class="div-hours">
-                        <h2>HORÁRIOS DE ATENDIMENTO</h2>
+            <div class="footer-columns">
+                <div id="hours">
+                    <div class="columns"> 
+                        <div class="div-hours">
+                            <h2>HORÁRIOS DE ATENDIMENTO</h2>
+                        </div>
+                        <ul class="hours1">
+                            <h3>Terça à Sexta</h3>
+                            <p>18hrs - 23hrs</p>
+                        </ul>
+                        <ul class="hours2">
+                            <h3>Sábado e Domingo</h3>
+                            <p>18hrs - 03hrs</p>
+                        </ul>
                     </div>
-                    <ul class="hours1">
-                        <h3>Terça à Sexta</h3>
-                        <p>18hrs - 23hrs</p>
+                </div>
+                <div class="columns">
+                    <ul class="header-footer">
+                        <h3>PÁGINAS</h3>
+                        <li><a href="/public/index.html">Início</a></li>
+                        <li><a href="/public/about.html">Sobre</a></li>
+                        <li><a href="/public/menu.html">Menu</a></li>
+                        <li><a href="/public/reservation.html">Reserva</a></li>
                     </ul>
-                    <ul class="hours2">
-                        <h3>Sábado e Domingo</h3>
-                        <p>18hrs - 03hrs</p>
+                    <ul class="contact">
+                        <h3>CONTATO</h3>
+                        <li><a href="#">support@chefhat.com</a></li>
+                        <li><a href="#">+55 (44) 99912-9289</a></li>
+                        <li><a href="#">Tatuapé - SP</a></li>
                     </ul>
                 </div>
-            </div>
-            <div class="columns">
-                <ul class="header-footer">
-                    <h3>PÁGINAS</h3>
-                    <li><a href="/public/index.html">Início</a></li>
-                    <li><a href="/public/about.html">Sobre</a></li>
-                    <li><a href="/public/menu.html">Menu</a></li>
-                    <li><a href="/public/reservation.html">Reserva</a></li>
-                </ul>
-                <ul class="contact">
-                    <h3>CONTATO</h3>
-                    <li><a href="#">support@chefhat.com</a></li>
-                    <li><a href="#">+55 (44) 99912-9289</a></li>
-                    <li><a href="#">Tatuapé - SP</a></li>
-                </ul>
             </div>
 
             <div class="allrights">

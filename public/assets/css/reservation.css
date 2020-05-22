@@ -1,12 +1,75 @@
 .page {
     width: 100%;
+}
+
+.page .banner {
+    width: 100%;
+    height: 600px;
+    background-image: url('/public/assets/images/photos/reservation-header.jpg');
+    background-size: cover;
+}
+
+.page .banner .banner-h1 {
+    width: 100%;
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 9em;
+}
+
+.page .banner .banner-h1 h1 {
+    color: var(--white);
+    font-size: 2.3em;
+}
+
+.page .form {
+    width: 100%;
+    padding: 1em 3em;
+}
+
+.page .form div h2 {
+    color: var(--white);
+    font-size: 1.5em;
+    margin-bottom: 1.5em;
+}
+
+.page .form .fields .field {
+    margin-bottom: 2em;
+    border: 1px solid var(--cream1);
+    padding: .8em;
+    border-radius: 6px;
+}
+
+.page .form .fields .field:hover {
+    border-color: var(--white);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .page {
+    width: 100%;
     display: flex;
     flex-direction: row;
 }
 
 .page section {
     width: 100%;
-}
+} sim
 
 .page .banner {
     width: 100%;
@@ -31,25 +94,9 @@
     color: var(--white);
     font-size: 2em;
     font-weight: bold;
-    margin-top: 1em;
-    margin-left: -75px;
+    margin-top: 6em;
     line-height: 1.25em;
-    -webkit-text-stroke: 2px;
-    -webkit-text-stroke-color: black;
 }
-
-/* .page .banner-p {
-    width: 100%;
-    align-items: center;
-    justify-content: center;
-}
-
-.page .banner-p p {
-    margin-top: -5px;
-    color: var(--cream2);
-    font-size: 1.6em;
-    text-shadow: 2px 2px var(--white);
-} */
 
 .page .form {
     margin-top: 2em;
@@ -66,12 +113,14 @@
     font-size: 1.5em;
     font-weight: lighter;
     line-height: 1.25em;
+    text-shadow: 1.2px 1.2px var(--yellow);
+
 }
 
 .page .form .fields {
     width: 96%;
     justify-content: center;
-    margin: 0 .1em .1em .3em;
+    margin: 0 3em;
     color: var(--white);    
 }
 
@@ -83,25 +132,23 @@
 }
 
 .page .form button {
-    background-color: transparent;
-    border: solid 1px var(--white);
+    border: none;
     width: 6em; 
     padding: 8px;
     margin-left: 0.3em;
     margin-top: .6em;
     margin-bottom: .8em;
     outline: 15em;
-    color: var(--white);
+    background: var(--grayC);
     text-align: center;
     justify-content: center;
-    text-decoration (--white);
-    border-radius: 8px;
+    text-decoration: var(--cream2);
     
 }
 
 
 .page .form button:hover {
-    color: var(--grayC);
+    color: var(--cream2);
 }
 
 
@@ -114,11 +161,13 @@
     }
     
     .page section {
-        width: 100%;
+        display: flex;
+        flex-direction: row;
+        margin: 74px 0;
     }
     
     .page .banner {
-        width: 100%;
+        width: 50%;
         height: 450px;
         margin-top: 15px;
         background-image: url('/public/assets/images/photos/reservation-header.jpg');
@@ -139,7 +188,8 @@
         color: var(--white);
         font-size: 2.5em;
         font-weight: bold;
-        margin: 0.4em 0;
+        margin: 0.4em 0px;
+        padding-top: 169px;
         line-height: 1.25em;
         text-shadow: 1.5px 1.5px var(--yellow);
     }
@@ -156,24 +206,26 @@
         font-size: 1.6em;
         text-shadow: 2px 2px var(--white);
     } */
-    
+  /*   
     .page .form {
-        margin-top: 2em;
-        width: 100%;
+        margin-top: 0em;
+        width: 50%;
+        align-items: center;
+        justify-content: center;
     }
     
     .page .form form {
         flex-direction: row;
+        width: 50%;
     }
     
     .page .form form h1 {
         margin: 0em 1em 1em 1em;
         color: var(--white);
-        font-size: 1.5em;
+        font-size: 1.2em;
         font-weight: lighter;
         line-height: 1.25em;
         text-shadow: 1.2px 1.2px var(--yellow);
-    
     }
     
     .page .form .fields {
@@ -192,9 +244,9 @@
     
     .page .form button {
         border: none;
-        width: 6em; 
+        width: 6em;
         padding: 8px;
-        margin-left: 4em;
+        margin-left: 40%;
         margin-top: .6em;
         margin-bottom: .8em;
         outline: 15em;
@@ -208,4 +260,4 @@
     .page .form button:hover {
         color: var(--yellow);
     }
-}
+} */ */
