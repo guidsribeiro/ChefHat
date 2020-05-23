@@ -5,7 +5,7 @@
 .page .banner {
     width: 100%;
     height: 600px;
-    background-image: url('/public/assets/images/photos/reservation-header.jpg');
+    background-image: url('/assets/images/photos/reservation-header.jpg');
     background-size: cover;
 }
 
@@ -120,7 +120,7 @@
     .page .banner {
         height: 100vh;
         margin-top: 15px;
-        background-image: url('/public/assets/images/photos/reservation-header.jpg');
+        background-image: url('/assets/images/photos/reservation-header.jpg');
         background-size: cover;
         background-position-y: center;
     }
